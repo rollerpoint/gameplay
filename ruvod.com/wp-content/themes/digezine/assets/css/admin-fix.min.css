@@ -1,0 +1,5 @@
+.media-modal .attachments.ui-state-disabled {opacity: 1; pointer-events: auto;}
+
+.control-section label {
+    display:block;
+}

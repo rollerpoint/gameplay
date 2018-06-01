@@ -1,0 +1,54 @@
+.page-preloader-cover {
+	position: fixed;
+	z-index: 1200;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: $color__bg-preloader-cover;
+}
+
+.page-preloader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+$stroke-length: 30;
+$stroke-length_2: 150;
+$preloader-animation:2.5s linear;
+
+.svg-path {
+	animation: $preloader-animation paper infinite;
+}
+
+.svg-path-2 {
+	animation: $preloader-animation paper2 infinite;
+}
+
+@keyframes paper {
+	0% {
+		stroke-dasharray: 0 $stroke-length;
+	}
+	70% {
+		stroke-dasharray: $stroke-length 0;
+	}
+	100% {
+		stroke-dasharray: 0;
+	}
+}
+
+@keyframes paper2 {
+	0% {
+		stroke-dasharray: 0 $stroke-length_2;
+	}
+	70% {
+		stroke-dasharray: $stroke-length_2 0;
+	}
+	100% {
+		stroke-dasharray: 0;
+	}
+}
+

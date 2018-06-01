@@ -1,0 +1,120 @@
+/* #Button Appearance Styles (regular scheme) */
+.link {
+	color: $regular_link_hover_color;
+}
+.invert .link {
+	color: $invert_link_color;
+}
+.link:hover,
+.invert .link:hover {
+	color: $regular_link_color;
+}
+
+.btn,
+.btn-primary,
+.btn-secondary,
+.btn:hover,
+.btn-primary:hover,
+.btn-secondary:hover,
+.invert .btn-primary,
+.invert .btn-secondary,
+.invert .btn-primary:hover,
+.invert .btn-secondary:hover{
+	color: $invert_link_color;
+}
+.btn,
+.btn-primary {
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+.btn:hover,
+.btn-primary:hover {
+	background-color: $regular_accent_color_2;
+	border-color: $regular_accent_color_2;
+}
+
+.subscribe-block__submit:hover{
+	background-color: $invert_text_color;
+	color: $regular_accent_color_1;
+}
+
+.btn:active,
+.btn-primary:active {
+	box-shadow: 0 0 10px $regular_accent_color_2;
+}
+.btn-secondary {
+	background-color: $regular_accent_color_2;
+	border-color: $regular_accent_color_2;
+}
+.btn-secondary:hover {
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+.btn-secondary:active {
+	box-shadow: 0 0 10px $regular_accent_color_1;
+}
+
+.error-404 .btn-secondary:hover {
+	color: $invert_link_color;
+	border-color: $invert_link_color;
+}
+
+.btn-default {
+	color: $regular_accent_color_2;
+}
+.btn-default:hover {
+	color: $invert_link_color;
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+.btn-default:active {
+	box-shadow: 0 0 10px $regular_accent_color_1;
+}
+
+/* #Button Appearance Styles (invert scheme) */
+.invert .btn,
+.invert .btn-primary,
+.invert .btn-secondary,
+.invert .btn-default {
+	color: $invert_link_color;
+	border-color: $invert_link_color;
+}
+.invert .btn-primary:hover,
+.invert .btn-secondary:hover,
+.invert .btn-default:hover {
+	color: $regular_link_hover_color;
+	border-color: $invert_link_color;
+	background-color: $invert_link_color;
+}
+
+.btn.btn-default,
+.error-404 .btn-secondary:hover,
+.invert .btn, .invert .btn-default,
+.invert .btn-primary,
+.invert .btn-secondary,
+.link{
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+	font-family:  @font_family( $meta_font_family );
+	color: $invert_accent_color_1;
+}
+
+.btn.btn-default:hover,
+.error-404 .btn-secondary:hover,
+.invert .btn:hover, .invert .btn-default:hover,
+.invert .btn-primary:hover,
+.invert .btn-secondary:hover,
+.link:hover{
+	background-color: $regular_accent_color_2;
+	color: $invert_accent_color_1;
+}
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.comment-form .submit,
+.wpcf7-submit,
+.post-password-form label + input{
+	font-family:  @font_family( $meta_font_family );
+}

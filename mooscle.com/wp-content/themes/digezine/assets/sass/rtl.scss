@@ -1,0 +1,73 @@
+/*!
+Theme Name: Digezine
+
+Adding support for languages written in a Right To Left (RTL) direction is easy,
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+@import "grid/variables";
+@import "grid/breakpoints";
+
+/*--------------------------------------------------------------
+# Reset
+--------------------------------------------------------------*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* These selectors should be LTR in a RTL language direction */
+input[type='email'],
+input[type='tel'],
+input[type='url'],
+.slider-pro,
+.lg-outer,
+.tm_timeline__container .contol_wrap {
+	direction: ltr;
+}
+
+input[type='email'],
+input[type='tel'],
+input[type='url'] {
+	text-align: right;
+}
+
+/* Arrow rotate */
+.swiper-button-next i,
+.swiper-button-prev i,
+
+.link i {
+	display: inline-block;
+	transform: rotate(180deg);
+}
+
+/*--------------------------------------------------------------
+#  TM Mega-menu
+--------------------------------------------------------------*/
+.tm-mega-menu .tm-mega-menu-sub.simple-sub li.tm-mega-menu-has-children > a > i.mega-menu-arrow.fa-angle-right {
+	transform: rotate(180deg);
+}
+
+.mega-menu-arrow {
+	padding: 0 4px 0 0;
+}
+
+/*--------------------------------------------------------------
+# Moto tools integration
+--------------------------------------------------------------*/
+.mti-event__participant-link {
+	margin: 0 0 0 20px;
+}
+.mti-event__schedule-column {
+	border-right: none;
+	border-left: 1px solid #e5e5e5;
+}
+.mti-event__schedule-timeslot {
+	padding-left: 0;
+	padding-right: 30px;
+}

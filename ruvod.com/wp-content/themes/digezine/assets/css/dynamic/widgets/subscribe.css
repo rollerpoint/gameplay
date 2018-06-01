@@ -1,0 +1,31 @@
+.subscribe-block__input { color: $regular_text_color; }
+
+.subscribe-block__input-wrap i {
+	color: @lighten($regular_text_color, 25%);
+}
+
+/*Subscribe Block*/
+.widget-subscribe .menu-item a{
+	color: $regular_text_color;
+}
+
+.widget-subscribe .menu-item a:hover{
+	color: $regular_accent_color_2;
+}
+
+.subscribe-block{
+	background-color: $footer_widgets_bg;
+}
+
+.subscribe-block .widget-title{
+	color: $invert_text_color;
+}
+
+.subscribe-block .widget-title:before{
+	color: $regular_accent_color_1;
+}
+
+.invert .subscribe-block .btn-primary:hover{
+	background-color: $invert_text_color;
+	color: $regular_accent_color_1;
+}

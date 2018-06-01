@@ -1,0 +1,32 @@
+.tablenav .actions {
+        overflow: inherit;
+}
+
+.tablenav .actions select.filter {
+    width: 250px;
+    max-width: initial;
+    height: 29px;
+}
+.tablenav .actions .chosen-container {
+    margin: 1px 5px 0 5px;
+    vertical-align: top;
+
+}
+
+.select2 .selection .select2-selection.select2-selection--single .select2-selection__rendered {
+    padding: 0 20px 0 8px;
+}
+
+.control-section label {
+    display:block;
+}
+.column-post_likes {
+    width: 80px;
+}
+
+.wp-social-login-provider {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    margin-right:5px;
+}

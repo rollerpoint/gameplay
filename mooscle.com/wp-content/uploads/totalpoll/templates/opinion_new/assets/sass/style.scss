@@ -1,0 +1,519 @@
+// Extra small screen / phone
+$screen-xs: 480px !default;
+$screen-xs-min: $screen-xs !default;
+$screen-phone: $screen-xs-min !default;
+
+// Small screen / tablet
+$screen-sm: 768px !default;
+$screen-sm-min: $screen-sm !default;
+$screen-tablet: $screen-sm-min !default;
+
+// Medium screen / desktop
+$screen-md: 992px !default;
+$screen-md-min: $screen-md !default;
+$screen-desktop: $screen-md-min !default;
+
+// Large screen / wide desktop
+$screen-lg: 1200px !default;
+$screen-lg-min: $screen-lg !default;
+$screen-lg-desktop: $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max: ($screen-sm-min - 1) !default;
+$screen-sm-max: ($screen-md-min - 1) !default;
+$screen-md-max: ($screen-lg-min - 1) !default;
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@include keyframes(show-results) {
+  20% {
+    top: -15px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@include keyframes(show-results-reversed) {
+  20% {
+    top: 15px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* VARIABLES */
+$choiceBackground: unquote("<?php echo $this->option('choices', 'default', 'background'); ?>");
+$choiceBackgroundChecked: unquote("<?php echo $this->option('choices', 'default', 'background:checked'); ?>");
+
+$choiceColor: unquote("<?php echo $this->option('choices', 'default', 'color'); ?>");
+
+$choiceTextShadow: unquote("<?php echo $this->option('choices', 'default', 'textshadow'); ?>");
+
+___PREFIX___.totalpoll-poll-container {
+
+  $border-radius: unquote("<?php echo $this->option('general', 'other', 'border-radius'); ?>");
+  $animation-duration: unquote("<?php echo $this->option('general', 'other', 'animation'); ?>");
+
+  line-height: unquote("<?php echo $this->option('typography', 'general', 'line-height'); ?>");
+  font-family: unquote("<?php echo $this->option('typography', 'general', 'font-family'); ?>");
+  font-size: unquote("<?php echo $this->option('typography', 'general', 'font-size'); ?>");
+
+  * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+
+    line-height: inherit;
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  /* Reset */
+  & {
+    div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, summary, time, video {
+      border: 0;
+      outline: 0;
+      vertical-align: baseline;
+      background-color: transparent;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      line-height: 1;
+    }
+    article, aside, dialog, figure, footer, header, hgroup, nav, section, blockquote {
+      display: block;
+    }
+    ul, ol {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after, q:before, q:after {
+      content: none;
+    }
+    ins {
+      text-decoration: underline;
+    }
+    del {
+      text-decoration: line-through;
+    }
+    mark {
+      background: none;
+    }
+    abbr[title], dfn[title] {
+      border-bottom: 1px dotted #000;
+      cursor: help;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin: 1em 0;
+      padding: 0;
+    }
+    input[type=submit], input[type=button], button {
+      margin: 0;
+      padding: 0;
+    }
+    input, select, img {
+      vertical-align: middle;
+    }
+    video, audio {
+      vertical-align: bottom;
+    }
+    img {
+      max-width: 100%;
+    }
+    li {
+      list-style: none inside
+    }
+    ul:before, li:before, ul:after, li:after {
+      display: none;
+      content: ""
+    }
+  }
+
+  .totalpoll-error-message {
+    padding: 1em;
+    margin-bottom: 1em;
+    color: unquote("<?php echo $this->option('general', 'messages', 'color'); ?>");
+    background-color: unquote("<?php echo $this->option('general', 'messages', 'background'); ?>");
+    border: 1px solid unquote("<?php echo $this->option('general', 'messages', 'border'); ?>");
+  }
+
+  .totalpoll-question {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 2em;
+    border: 0;
+    padding: 0;
+  }
+
+  .totalpoll-choices {
+    margin: 2em auto;
+    border-radius: $border-radius;
+    @include clearfix;
+
+    @media all and (min-width: $screen-md-min) {
+      margin-right: -1.25%;
+      margin-left: -1.25%;
+    }
+
+    .totalpoll-choice {
+      vertical-align: top;
+      margin-bottom: 0.5em;
+      text-align: center;
+
+      @media all and (min-width: $screen-md-min) {
+        float: left;
+        width: 47.5%;
+        margin: 0 1.25%;
+      }
+
+      .totalpoll-choice-container {
+        display: table;
+        width: 100%;
+        min-height: 14em;
+      }
+
+      .totalpoll-choice-percentage {
+        font-size: 2.5em;
+        font-weight: bold;
+        opacity: 0;
+        position: relative;
+        animation: show-results 1s forwards;
+
+        &-decimal {
+          font-size: 0.7em;
+        }
+      }
+
+      .totalpoll-choice-votes {
+        font-size: 70%;
+        text-transform: uppercase;
+        opacity: 0.65;
+      }
+
+      .totalpoll-choice-checkbox-container {
+        display: none;
+
+      }
+
+      .totalpoll-choice-content {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 2em;
+        height: 100%;
+        font-size: 1.3em;
+        position: relative;
+        border-radius: $border-radius;
+        word-break: break-word;
+        overflow: hidden;
+        background: $choiceBackground;
+        color: $choiceColor;
+        text-shadow: 0 1px 1px $choiceTextShadow;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+
+        &:before {
+          position: absolute;
+          top: -200%;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 300%;
+          content: '';
+          background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+          background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+          background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+          opacity: 0.25;
+        }
+
+        &:hover {
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+
+          &:before {
+            opacity: 0.4;
+          }
+        }
+
+      }
+
+      &.checked {
+
+        .totalpoll-choice-content {
+          background: $choiceBackgroundChecked;
+          transform: scale(1.05);
+          z-index: 1;
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+
+          &:before {
+            opacity: 0.5;
+          }
+
+        }
+      }
+
+    }
+  }
+
+  .totalpoll-view {
+
+    &-vote {
+
+      .totalpoll-choice-container {
+        cursor: pointer;
+      }
+
+      .totalpoll-choices .totalpoll-choice.checked {
+        .totalpoll-choice-content:after {
+          position: absolute;
+          top: 0.5em;
+          right: 0.5em;
+          line-height: 1;
+          content: '✔';
+        }
+      }
+
+    }
+
+    &-results {
+      .totalpoll-choice-label-text {
+        position: relative;
+        animation: show-results-reversed 1s forwards;;
+      }
+    }
+
+  }
+
+  .totalpoll-fields {
+
+    .totalpoll-field-wrapper {
+
+      label {
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      .totalpoll-fields-field {
+        border-radius: $border-radius;
+      }
+
+      .totalpoll-field-error {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+        border-bottom: 1px solid unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+
+        color: unquote("<?php echo $this->option('general', 'messages', 'color'); ?>");
+        border-radius: $border-radius;
+
+      }
+
+      + .totalpoll-field-wrapper {
+        margin-top: 1.5em;
+      }
+
+    }
+
+    &-field {
+      width: 100%;
+    }
+
+    &-field[type=checkbox], &-field[type=radio] {
+      width: auto;
+      margin-right: 0.5em;
+    }
+
+  }
+
+  .totalpoll-buttons {
+    margin-top: 1em;
+    text-align: right;
+
+    .totalpoll-button {
+      display: block;
+      padding: 1em 2em;
+      margin-bottom: 1em;
+      width: 100%;
+
+      color: unquote("<?php echo $this->option('buttons', 'default', 'color:normal'); ?>");
+      background-color: unquote("<?php echo $this->option('buttons', 'default', 'background:normal'); ?>");
+      border: 1px solid unquote("<?php echo $this->option('buttons', 'default', 'border:normal'); ?>");
+
+      line-height: 1;
+      text-decoration: none;
+      border-radius: $border-radius;
+
+      &:hover, &:focus, &:active {
+        color: unquote("<?php echo $this->option('buttons', 'default', 'color:hover'); ?>");
+        background-color: unquote("<?php echo $this->option('buttons', 'default', 'background:hover'); ?>");
+        border-color: unquote("<?php echo $this->option('buttons', 'default', 'border:hover'); ?>");
+      }
+
+      &.totalpoll-button-primary {
+        color: unquote("<?php echo $this->option('buttons', 'primary', 'color:normal'); ?>");
+        background-color: unquote("<?php echo $this->option('buttons', 'primary', 'background:normal'); ?>");
+        border-color: unquote("<?php echo $this->option('buttons', 'primary', 'border:normal'); ?>");
+
+        &:hover, &:focus, &:active {
+          color: unquote("<?php echo $this->option('buttons', 'primary', 'color:hover'); ?>");
+          background-color: unquote("<?php echo $this->option('buttons', 'primary', 'background:hover'); ?>");
+          border-color: unquote("<?php echo $this->option('buttons', 'primary', 'border:hover'); ?>");
+        }
+
+      }
+
+      &.totalpoll-button-primary {
+        color: unquote("<?php echo $this->option('buttons', 'primary', 'color:normal'); ?>");
+        background-color: unquote("<?php echo $this->option('buttons', 'primary', 'background:normal'); ?>");
+        border-color: unquote("<?php echo $this->option('buttons', 'primary', 'border:normal'); ?>");
+
+        &:hover, &:focus, &:active {
+          color: unquote("<?php echo $this->option('buttons', 'primary', 'color:hover'); ?>");
+          background-color: unquote("<?php echo $this->option('buttons', 'primary', 'background:hover'); ?>");
+          border-color: unquote("<?php echo $this->option('buttons', 'primary', 'border:hover'); ?>");
+        }
+
+      }
+
+      &.totalpoll-button-link {
+        background: transparent;
+        border: 0;
+
+        &:hover, &:focus, &:active {
+          text-decoration: underline;
+        }
+      }
+
+      &[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      @media all and (min-width: $screen-md-min) {
+        display: inline-block;
+        width: auto;
+        margin-bottom: 0;
+
+        + .totalpoll-button {
+          margin-left: 1em;
+        }
+
+        &.totalpoll-button-next {
+          float: right;
+          margin-left: 0;
+        }
+
+        &.totalpoll-button-previous {
+          float: left;
+          margin-left: 0;
+        }
+
+      }
+
+    }
+
+    .totalpoll-buttons-pagination {
+      padding: 1em;
+      margin-bottom: 1em;
+      border: 1px solid unquote("<?php echo $this->option('general', 'container', 'border'); ?>");
+      border-radius: $border-radius;
+
+      @include clearfix;
+    }
+
+  }
+
+  .totalpoll-captcha {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    @include clearfix;
+
+    > div {
+      float: right;
+    }
+  }
+
+}
+
+___PREFIX___.totalpoll-poll-container.totalpoll-rtl {
+
+  .totalpoll-view-results .totalpoll-choices .totalpoll-choice .totalpoll-choice-votes-bar {
+    right: 0;
+    left: auto;
+
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    -ms-transform-origin: right;
+    -o-transform-origin: right;
+    transform-origin: right;
+  }
+
+  .totalpoll-buttons {
+    text-align: left;
+
+    .totalpoll-button-next {
+      float: left;
+      margin-right: 0;
+    }
+
+    .totalpoll-button-previous {
+      float: right;
+      margin-right: 0;
+    }
+
+    .totalpoll-button + .totalpoll-button {
+      margin-left: 0;
+      margin-right: 1em;
+    }
+  }
+
+  .totalpoll-fields {
+    &-field[type=checkbox], &-field[type=radio] {
+      margin-left: 0.5em;
+      margin-right: 0;
+    }
+  }
+
+}

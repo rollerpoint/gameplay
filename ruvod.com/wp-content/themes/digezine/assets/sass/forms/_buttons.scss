@@ -1,0 +1,58 @@
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+	@include btn;
+}
+
+// General styles
+.btn {
+	text-decoration: none;
+	@include btn;
+
+	&:hover {
+		text-decoration: none;
+	}
+	&:active {
+		outline: 0;
+		box-shadow: 0 0 10px;
+	}
+	&-fullwidth {
+		width: 100%;
+	}
+
+	&.btn-default {
+		background-color: transparent;
+		border-color: $color__border-button;
+	}
+}
+
+.invert .btn,
+.invert .btn-primary,
+.invert .btn-secondary,
+.invert .btn-default,
+.error-404 .btn-secondary:hover {
+	background-color: transparent;
+}
+
+.link {
+	i {
+		display: none
+	}
+}
+
+.link,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.comment-form .submit,
+.wpcf7-submit,
+.post-password-form label + input {
+	@include font-size(14/16);
+	text-transform: none;
+	letter-spacing: 0;
+	border-radius: 0;
+	font-weight: 600;
+	padding: 10px 18px;
+}

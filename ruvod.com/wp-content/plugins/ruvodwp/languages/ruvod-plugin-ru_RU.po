@@ -1,0 +1,1199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: [Latest] Ruvod Additional functionality\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-05-04 14:29+0000\n"
+"PO-Revision-Date: 2018-05-04 14:29+0000\n"
+"Last-Translator: able1221@gmail.com <Able1221@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru-RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: inc/calendar.php:229
+msgid "Download"
+msgstr "Скачать"
+
+#: inc/company.php:52
+msgid "Calendar sidebar after vacancies and experts"
+msgstr ""
+
+#: inc/account/profile/form.php:58
+msgid "500 x 500"
+msgstr ""
+
+#: inc/company/main/form.php:42
+msgid "1440 x 250"
+msgstr ""
+
+#: inc/company/main/form.php:70
+msgid "400 x 400"
+msgstr ""
+
+#: company-sidebars.php:10
+msgid "Information"
+msgstr "Информация"
+
+#: company-sidebars.php:14
+msgid "Link to blog"
+msgstr "Страница компании"
+
+#: company-sidebars.php:18
+msgid "Link"
+msgstr "Ссылка"
+
+#: company-sidebars.php:24 page-company.php:12 inc/company/members/list.php:19
+msgid "Members"
+msgstr "Сотрудники"
+
+#: company-sidebars.php:47
+msgid "Blog records"
+msgstr "Публикации блога"
+
+#: company-sidebars.php:73 company-sidebars.php:414 page-company.php:10
+#: inc/company/vacancies/list.php:51
+msgid "Vacancies"
+msgstr "Вакансии"
+
+#: company-sidebars.php:110 single-cv.php:115 single-vacancy.php:90
+#: single-vacancy.php:279 inc/account/profile/view.php:122
+#: inc/company/vacancies/form.php:83 inc/company/vacancies/list.php:193
+#: inc/company/vacancies/list.php:206 inc/company/vacancies/list.php:217
+msgid "To"
+msgstr "До"
+
+#: company-sidebars.php:131
+msgid "Balance"
+msgstr "Баланс"
+
+#: company-sidebars.php:145
+msgid "Support"
+msgstr "Поддержка"
+
+#: company-sidebars.php:158 company-sidebars.php:344 ruvod.php:322
+#: inc/account/profile/view.php:20 inc/company/main/form.php:89
+msgid "Profile"
+msgstr "Профиль"
+
+#: company-sidebars.php:183 company-sidebars.php:369 page-company.php:11
+#: inc/company/links/list.php:23
+msgid "Links"
+msgstr "Ссылки"
+
+#: company-sidebars.php:214 company-sidebars.php:576
+msgid "Latest publciations"
+msgstr "Новые публикации"
+
+#: company-sidebars.php:216 company-sidebars.php:266
+#: inc/account/profile/form.php:56 inc/company/blog/form.php:68
+#: inc/company/main/form.php:40 inc/company/main/form.php:68
+#: inc/company/main/form.php:78
+msgid "Add"
+msgstr "Добавить"
+
+#: company-sidebars.php:264
+msgid "Latest vacancies"
+msgstr "Новые вакансии"
+
+#: company-sidebars.php:468
+msgid "Experts"
+msgstr "Эксперты"
+
+#: company-sidebars.php:517
+msgid "New comment"
+msgstr "Новый комментарий"
+
+#: page-account.php:18 ruvod.php:320
+msgid "Account"
+msgstr "Аккаунт"
+
+#: page-account.php:20
+msgid "Profile CV"
+msgstr "Резюме"
+
+#: page-company.php:9
+msgid "Blog"
+msgstr "Блог"
+
+#: page-company.php:13
+msgid "Company settings"
+msgstr "Настройки"
+
+#: page-company.php:14
+msgid "Billing"
+msgstr "Биллинг"
+
+#: ruvod.php:99
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Вы не имеете доступа к этой странице"
+
+#: ruvod.php:317 inc/vacancies.php:8
+msgid "Company"
+msgstr "Компания"
+
+#: ruvod.php:324
+msgid "Log out"
+msgstr "Выход"
+
+#: ruvod.php:328
+msgid "Log In"
+msgstr "Вход"
+
+#: ruvod.php:581
+msgid "Thumb in ruvod publication"
+msgstr "Миниатюра для публикаций"
+
+#: ruvod.php:588
+msgid "Post Thumbnail"
+msgstr "Миниатюра записи"
+
+#: single-cv.php:108 single-vacancy.php:81 single-vacancy.php:272
+#: inc/account/profile/view.php:115 inc/company/vacancies/form.php:77
+#: inc/company/vacancies/list.php:184
+msgid "Salary"
+msgstr "Зарплата"
+
+#: single-cv.php:113 single-vacancy.php:88 single-vacancy.php:277
+#: inc/account/profile/view.php:120 inc/company/vacancies/form.php:80
+#: inc/company/vacancies/list.php:191
+msgid "From"
+msgstr "От"
+
+#: single-vacancy.php:57 inc/company/vacancies/form.php:68
+#: inc/company/vacancies/list.php:160
+msgid "Employment"
+msgstr "Занятость"
+
+#: single-vacancy.php:63 inc/company/vacancies/form.php:70
+#: inc/company/vacancies/list.php:166
+msgid "Full employment"
+msgstr "Полная"
+
+#: single-vacancy.php:64 inc/company/vacancies/form.php:71
+#: inc/company/vacancies/list.php:167
+msgid "Part-time employment"
+msgstr "Частичная"
+
+#: single-vacancy.php:86 inc/company/vacancies/form.php:91
+#: inc/company/vacancies/list.php:189
+msgid "Based on the results of the interview"
+msgstr "По результатам собеседования"
+
+#: single-vacancy.php:324 inc/company/vacancies/list.php:222
+msgid "Answers"
+msgstr "Отклики"
+
+#: single-vacancy.php:328
+msgid "Sorry. There have been no answers to this vacancy"
+msgstr "На вашу вакансию еще нет откликов"
+
+#: single-vacancy.php:374
+msgid "You have already responded to this vacancy"
+msgstr "Вы уже отправили отклик на эту вакансию"
+
+#: single-vacancy.php:389 single-vacancy.php:408
+msgid "Answer"
+msgstr "Откликнуться"
+
+#: single-vacancy.php:433
+msgid "Vacancy answer"
+msgstr "Отклик на вакансию"
+
+#: single-vacancy.php:450
+msgid "Message to the employer"
+msgstr "Сообщение работодателю"
+
+#: single-vacancy.php:464
+msgid "To answer a vacancy, you need to create a CV"
+msgstr "Для отклика на вакансию вам нужно заполнить прфоиль"
+
+#: single-vacancy.php:467 inc/account/cvs/list.php:98
+#: inc/account/email_subscribers/form.php:56 inc/company/blog/list.php:109
+#: inc/company/links/list.php:87 inc/company/vacancies/list.php:265
+msgid "Create"
+msgstr "Создать"
+
+#: single-vacancy.php:474
+msgid "To apply for a vacancy, you must log in"
+msgstr "Для отклика на вакансию вам нужно авторизоваться"
+
+#: single-vacancy.php:499 inc/donate.php:54 inc/rumor.php:38
+#: inc/subscribe.php:31 inc/telegram.php:380
+msgid "Send"
+msgstr "Отправить"
+
+#: inc/calendar.php:138
+msgid "Releases calendar sidebar"
+msgstr "Сайдбар календаря"
+
+#: inc/calendar.php:139
+msgid "Calendar sidebar after calendar filter"
+msgstr "Сайдбар под фильтрмо календаря"
+
+#: inc/calendar.php:149
+msgid "Digital releases"
+msgstr "Цифровые релизы"
+
+#: inc/calendar.php:154 inc/calendar.php:208
+msgid "Distributor"
+msgstr "ДИСТРИБЬЮТОР"
+
+#: inc/calendar.php:155 inc/calendar.php:213
+msgid "Genre"
+msgstr "Жанр"
+
+#: inc/calendar.php:156 inc/calendar.php:218
+msgid "Monetization model"
+msgstr "Модель монетизации"
+
+#: inc/calendar.php:157 inc/calendar.php:203
+msgid "Marketplace"
+msgstr "Площадка"
+
+#: inc/calendar.php:159
+msgid "Piracy index"
+msgstr "Пиратируемость"
+
+#: inc/calendar.php:162
+msgid ""
+"Reflects the percentage of links with illegal copies on the first page of "
+"search engines"
+msgstr ""
+"Отражает процент ссылок с нелегальными копиями на первой странице поисковиков"
+
+#: inc/calendar.php:162 inc/calendar.php:173
+msgid "Data provided"
+msgstr "Данные предоставлены"
+
+#: inc/calendar.php:169
+msgid "Formats of pirated copies"
+msgstr "Форматы пиратских копий"
+
+#: inc/calendar.php:173
+msgid "Reflects the quality of illegal copies on the network"
+msgstr "Отражает качество доступных в сети нелегальных копий"
+
+#: inc/calendar.php:184
+msgid "Close"
+msgstr "Закрыть"
+
+#: inc/calendar.php:199
+msgid "Movie"
+msgstr "Фильм"
+
+#: inc/calendar.php:200
+msgid "Title"
+msgstr "Название"
+
+#: inc/calendar.php:204 inc/calendar.php:209 inc/calendar.php:214
+#: inc/calendar.php:219
+msgid "Select some option"
+msgstr "Выберите значения"
+
+#: inc/calendar.php:224
+msgid "Download template"
+msgstr "Скачать шаблон"
+
+#: inc/calendar.php:227 inc/vacancies.php:13
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/company.php:51
+msgid "Companies sidebar"
+msgstr "Сайдбар компаний"
+
+#: inc/company.php:210
+msgid "Payment publish vacancy"
+msgstr "Публикация резюме"
+
+#: inc/company.php:211
+msgid "Payment publish post"
+msgstr "Публикация на главную"
+
+#: inc/company.php:477
+msgid "Thumb for ruvod companies"
+msgstr "Миниатюра для компаний"
+
+#: inc/donate.php:7 inc/donate.php:24
+msgid "Donate"
+msgstr "Поддержать"
+
+#: inc/donate.php:39 inc/account/settings.php:69
+msgid "Pay by card"
+msgstr "Оплатить картой"
+
+#: inc/donate.php:43
+msgid "Specify the amount. Your funds will be used to develop the resource."
+msgstr "Укажите сумму.Ваши средства будут направлены на развитие ресурса."
+
+#: inc/email_subscribers.php:57
+msgid "Email already exists in the list of subscribers"
+msgstr "Подписка с таким email уже существует"
+
+#: inc/memberships.php:183
+msgid "This material is available only by subscription"
+msgstr "Этот материал доступен только по подписке"
+
+#: inc/memberships.php:189
+msgid ""
+"To subscribe, please contact us by <a href=\"mailto:info@ruvod.com\">"
+"info@ruvod.com</a>"
+msgstr ""
+"Для оформления подписки, пожалуйста, свяжитесь с нами по <a href=\"mailto:"
+"info@ruvod.com\">info@ruvod.com</a>"
+
+#: inc/rumor.php:24
+msgid "Share rumors anonymously"
+msgstr "Поделиться слухами"
+
+#: inc/rumor.php:30
+msgid "Set form_id option in plugin settings"
+msgstr "Не указан идентификатор формы обратной связи"
+
+#: inc/rumor.php:41
+msgid "100% anonymous"
+msgstr "100% Анонимно"
+
+#: inc/rumor.php:46
+msgid "Add file"
+msgstr "Отправить файл"
+
+#: inc/rumor.php:63
+msgid "Share rumors"
+msgstr "Поделиться слухами"
+
+#: inc/subscribe.php:17 inc/subscribe.php:46
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: inc/subscribe.php:23
+msgid "Set form_id option for shordcode(contact-form-7)"
+msgstr "Укажите идентификатор формы"
+
+#: inc/telegram.php:379
+msgid "Save comment?"
+msgstr "Сохранить комментарий?"
+
+#: inc/telegram.php:379
+msgid "Send comment?"
+msgstr "Отправить комментарий?"
+
+#: inc/telegram.php:380 inc/account/main/change_password.php:33
+#: inc/account/main/edit.php:54 inc/account/profile/form.php:359
+#: inc/company/blog/form.php:138 inc/company/links/form.php:96
+#: inc/company/main/form.php:105 inc/company/vacancies/form.php:197
+msgid "Save"
+msgstr "Сохранить"
+
+#: inc/telegram.php:385
+msgid "Remove comment?"
+msgstr "Удалить комментарий?"
+
+#: inc/telegram.php:386 inc/company/blog/form.php:48
+#: inc/company/links/form.php:48 inc/company/links/list.php:54
+#: inc/company/members/list.php:44 inc/company/vacancies/form.php:44
+#: inc/company/vacancies/list.php:139
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/user.php:54
+msgid "Hello. You have registered on the RUVOD website using social networks."
+msgstr ""
+"Здравствуйте. Вы зарегистрировались на веб-сайте RUVOD, используя социальные "
+"сети."
+
+#: inc/user.php:56
+msgid "Your data for regular authorization:"
+msgstr "Ваши данные для стандартной авторизации:"
+
+#: inc/user.php:58 inc/company/ajax/member.php:114
+msgid "Username : "
+msgstr "Логин:"
+
+#: inc/user.php:60 inc/company/ajax/member.php:116
+msgid "Password : "
+msgstr "Пароль:"
+
+#: inc/user.php:62 inc/company/ajax/member.php:70
+#: inc/company/ajax/member.php:118
+msgid "Login url"
+msgstr "Адрес для входа"
+
+#: inc/user.php:64 inc/company/ajax/member.php:120
+msgid "You can change your login details in your personal account"
+msgstr "Вы можете изменить логин в личном кабинете"
+
+#: inc/user.php:68
+msgid "Register on RUVOD"
+msgstr "Регистрация на RUVOD"
+
+#: inc/vacancies.php:17
+msgid "Select company"
+msgstr "Выберите компанию"
+
+#: inc/vacancies.php:116
+msgid "Fill out the profile in your account"
+msgstr "Заполните профиль своего аккаунта"
+
+#: inc/vacancies.php:142
+msgid "This vacancy already has a answer"
+msgstr "Уже есть отклик на эту вакансию"
+
+#: inc/vacancies.php:169
+msgid "Hello."
+msgstr "Здравствуйте."
+
+#: inc/vacancies.php:172
+msgid "left a response to your vacancy"
+msgstr "откликнулся на вашу вакансию"
+
+#: inc/vacancies.php:175
+msgid "Message from the candidate:"
+msgstr "Сообщение от соискателя:"
+
+#: inc/vacancies.php:179
+msgid ""
+"Go to a specialist profile to learn more about it, or see contact details."
+msgstr "Перейдите в профиль специалиста и ознакомьтесь с контактными данными"
+
+#: inc/vacancies.php:183
+msgid "New answer to the vacancy of"
+msgstr "Новый отклик на вакасию"
+
+#: inc/vacancies.php:191
+msgid "Answer created"
+msgstr "Отклик создан"
+
+#: inc/account/email_subscribers.php:12
+msgid "Added subscriptions"
+msgstr "Добавленные подписчики"
+
+#: inc/account/email_subscribers.php:16
+msgid "Add new subscriber"
+msgstr "Добавить нового"
+
+#: inc/account/email_subscribers.php:37
+#: inc/account/email_subscribers/form.php:34 inc/account/main/edit.php:10
+#: inc/account/main/edit.php:15 inc/account/main/view.php:12
+#: inc/company/vacancies/form.php:170
+msgid "Email"
+msgstr "Email"
+
+#: inc/account/email_subscribers.php:38
+msgid "User name"
+msgstr "Имя пользователя"
+
+#: inc/account/email_subscribers.php:39
+#: inc/account/email_subscribers/form.php:22
+msgid "Company Name"
+msgstr "Название компании"
+
+#: inc/account/email_subscribers.php:39
+#: inc/account/email_subscribers/form.php:28
+msgid "Job"
+msgstr "Должность"
+
+#: inc/account/email_subscribers.php:40
+msgid "Created At"
+msgstr "Создано"
+
+#: inc/account/email_subscribers.php:70
+msgid "Ничего не найдено"
+msgstr "Ничего не найдено"
+
+#: inc/account/settings.php:8
+msgid "Subscription renewal"
+msgstr "Продление подписки"
+
+#: inc/account/settings.php:8
+msgid "Subscription Formation"
+msgstr "Оформление подписки"
+
+#: inc/account/settings.php:13
+msgid "Specify duration"
+msgstr "Укажите продолжительность"
+
+#: inc/account/settings.php:17
+msgid "Month"
+msgstr "Месяц"
+
+#: inc/account/settings.php:21
+msgid "Three months"
+msgstr "Три месяца"
+
+#: inc/account/settings.php:25
+msgid "Half a year"
+msgstr "Пол года"
+
+#: inc/account/settings.php:29
+msgid "Year"
+msgstr "Год"
+
+#: inc/account/settings.php:50
+msgid "By making payment you agree with"
+msgstr "Сделав платеж вы соглашаетесь с"
+
+#: inc/account/settings.php:54
+msgid "subscription terms"
+msgstr "условиями подписки"
+
+#: inc/account/settings.php:81
+msgid "Subscription management"
+msgstr "Управление подпиской"
+
+#: inc/account/settings.php:86
+msgid "Account Type"
+msgstr "Тип профиля"
+
+#: inc/account/settings.php:93
+msgid "Premium"
+msgstr "Премиум"
+
+#: inc/account/settings.php:97
+msgid "Valid until"
+msgstr "Действует до"
+
+#: inc/account/settings.php:101
+msgid "Extend"
+msgstr "Продлить"
+
+#: inc/account/settings.php:106
+msgid "Simple account"
+msgstr "Простой аккаунт"
+
+#: inc/account/settings.php:107
+msgid "A simple account has limited access to portal materials"
+msgstr "Простая учетная запись имеет ограниченный доступ к материалам портала"
+
+#: inc/account/settings.php:110
+msgid "Upgrade"
+msgstr "Улучшить"
+
+#: inc/account/ajax/profile.php:32 inc/company/ajax/company.php:36
+#: inc/company/ajax/post.php:24
+msgid "Select thumbnail"
+msgstr "Выбрать миниатюру"
+
+#: inc/account/ajax/profile.php:38
+msgid "Specify competences"
+msgstr "Укажите основные компетенции"
+
+#: inc/account/ajax/profile.php:112 inc/account/profile/form.php:12
+#: inc/company/ajax/link.php:17 inc/company/ajax/link.php:101
+#: inc/company/ajax/member.php:25 inc/company/ajax/post.php:16
+#: inc/company/ajax/post.php:137 inc/company/ajax/post.php:156
+#: inc/company/ajax/vacancy.php:20 inc/company/ajax/vacancy.php:136
+#: inc/company/ajax/vacancy.php:157 inc/company/ajax/vacancy.php:182
+msgid "No access to this action"
+msgstr "Нет доступа"
+
+#: inc/account/ajax/profile.php:115
+msgid "CV removed"
+msgstr "Резюме удалено"
+
+#: inc/account/ajax/user.php:13 inc/account/ajax/user.php:75
+msgid "Invalid password"
+msgstr "Неверный пароль"
+
+#: inc/account/ajax/user.php:19 inc/account/ajax/user.php:81
+msgid "Password blank"
+msgstr "Введите пароль"
+
+#: inc/account/ajax/user.php:34
+msgid "Login is busy"
+msgstr "Логин занят"
+
+#: inc/account/ajax/user.php:89
+msgid "Passwords do not match"
+msgstr "Пароли не совпадают"
+
+#: inc/account/ajax/user.php:95
+msgid "Password must contain at least 8 characters"
+msgstr "Пароль должен содержать не менее 8 символов"
+
+#: inc/account/cvs/list.php:16
+msgid "My cvs"
+msgstr "Мои резюме"
+
+#: inc/account/cvs/list.php:18 inc/company/blog/list.php:50
+#: inc/company/links/list.php:26 inc/company/members/list.php:24
+#: inc/company/vacancies/list.php:54
+msgid "New"
+msgstr "Добавить"
+
+#: inc/account/cvs/list.php:89
+msgid "Not found cvs for query"
+msgstr "Резюме не найдены"
+
+#: inc/account/cvs/list.php:95
+msgid "CV not found, create first now"
+msgstr "Резюме не найдены, создайте сейчас"
+
+#: inc/account/email_subscribers/form.php:6
+msgid "New subscriber"
+msgstr "Новый подписчик"
+
+#: inc/account/email_subscribers/form.php:10
+msgid "First Name"
+msgstr "Имя"
+
+#: inc/account/email_subscribers/form.php:16
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: inc/account/email_subscribers/form.php:42
+msgid "One-time delivery"
+msgstr "Разовая рассылка"
+
+#: inc/account/email_subscribers/form.php:63
+#: inc/account/main/change_password.php:37 inc/account/main/edit.php:58
+#: inc/company/blog/form.php:185 inc/company/links/form.php:100
+#: inc/company/main/form.php:109 inc/company/vacancies/form.php:218
+msgid "Loading"
+msgstr "Загрузка"
+
+#: inc/account/main/change_password.php:3
+msgid "Password changed"
+msgstr "Пароль изменен"
+
+#: inc/account/main/change_password.php:7
+#: inc/account/main/change_password.php:12 inc/account/main/edit.php:46
+#: inc/account/main/edit.php:51
+msgid "Current password"
+msgstr "Текущий пароль"
+
+#: inc/account/main/change_password.php:16
+msgid "New Password"
+msgstr "Новый пароль"
+
+#: inc/account/main/change_password.php:21
+msgid "Password"
+msgstr "Пароль"
+
+#: inc/account/main/change_password.php:25
+msgid "Confirmation"
+msgstr "Подтверждение"
+
+#: inc/account/main/edit.php:1
+msgid "Profile editing"
+msgstr "Редактирование профиля"
+
+#: inc/account/main/edit.php:6
+msgid "Profile saved"
+msgstr "Профиль сохранен"
+
+#: inc/account/main/edit.php:19
+msgid "Username"
+msgstr "Логин"
+
+#: inc/account/main/edit.php:24
+msgid "Username for login"
+msgstr "Логин для входа"
+
+#: inc/account/main/edit.php:28 inc/account/main/edit.php:33
+msgid "First name"
+msgstr "Имя"
+
+#: inc/account/main/edit.php:37
+msgid "Second name"
+msgstr "Фамилия"
+
+#: inc/account/main/edit.php:42
+msgid "Secon name"
+msgstr "Фамилия"
+
+#: inc/account/main/view.php:2
+msgid "Hello"
+msgstr "Приветствуем"
+
+#: inc/account/main/view.php:15 inc/company/links/list.php:51
+#: inc/company/template_parts/content-company-post.php:122
+#: inc/company/vacancies/list.php:136
+msgid "Edit"
+msgstr "Редактировать"
+
+#: inc/account/main/view.php:18
+msgid "Change password"
+msgstr "Изменить пароль"
+
+#: inc/account/main/view.php:20
+msgid "Send a link to create a password for your email?"
+msgstr "Отправить ссылку для восстановления пароля на ваш e-mail?"
+
+#: inc/account/main/view.php:21
+msgid "Restore password"
+msgstr "Восстановить пароль"
+
+#: inc/account/profile/form.php:55 inc/account/profile/form.php:56
+#: inc/company/blog/form.php:67 inc/company/blog/form.php:68
+#: inc/company/main/form.php:39 inc/company/main/form.php:40
+#: inc/company/main/form.php:50 inc/company/main/form.php:67
+#: inc/company/main/form.php:68 inc/company/main/form.php:78
+#: inc/company/main/view.php:64
+msgid "Change"
+msgstr "Изменить"
+
+#: inc/account/profile/form.php:62 inc/company/blog/form.php:74
+#: inc/company/main/form.php:46 inc/company/main/form.php:74
+msgid "Select file"
+msgstr "Выберите файл"
+
+#: inc/account/profile/form.php:66
+msgid "Change photo"
+msgstr "Изменить фотографию"
+
+#: inc/account/profile/form.php:66
+msgid "Chose photo"
+msgstr "Выбрать фотографию"
+
+#: inc/account/profile/form.php:183 inc/company/vacancies/form.php:117
+msgid "Specify short tags"
+msgstr "Укажите короткими тегами"
+
+#: inc/company/ajax/company.php:73
+msgid "Success ubdate company"
+msgstr "Успешное обновление"
+
+#: inc/company/ajax/link.php:77
+msgid "Success create link"
+msgstr "Ссылка создана"
+
+#: inc/company/ajax/link.php:79
+msgid "Success update link"
+msgstr "Ссылка обновлена"
+
+#: inc/company/ajax/link.php:104
+msgid "link removed"
+msgstr "Ссылка удалена"
+
+#: inc/company/ajax/member.php:17
+msgid "User deleted from your company"
+msgstr "Пользователь удален из вашей компании"
+
+#: inc/company/ajax/member.php:56
+msgid "User already in your company"
+msgstr "Пользователь уже в вашей компании"
+
+#: inc/company/ajax/member.php:61
+msgid "The user belongs to another company, ask him to leave her"
+msgstr ""
+"Пользователь является сотрудником другой компании, попросите его покинуть её"
+
+#: inc/company/ajax/member.php:68 inc/company/ajax/member.php:110
+msgid ""
+"Hello. You were invited as an employee of the company on the RUVOD website."
+msgstr "Здравствуйте. Вас пригласили как сотрудника компании на RUVOD"
+
+#: inc/company/ajax/member.php:73 inc/company/ajax/member.php:124
+msgid "Invite to RUVOD"
+msgstr "Приглашение RUVOD"
+
+#: inc/company/ajax/member.php:80
+msgid "User add to your company"
+msgstr "Пользователь добавлен в вашу компанию"
+
+#: inc/company/ajax/member.php:86
+msgid "User not found, please invite user by email"
+msgstr "Пользователь не найден, добавьте нового пользователя используя EMAIL"
+
+#: inc/company/ajax/member.php:112
+msgid "Login data:"
+msgstr "Данные для входа:"
+
+#: inc/company/ajax/member.php:132
+msgid "User is added, instructions for login are sent to the specified mail"
+msgstr "Пользователь добавлен, инструкции отправлены на EMAIL"
+
+#: inc/company/ajax/post.php:58 inc/company/blog/form.php:160
+msgid "You can not post news on the main page"
+msgstr "Вы не можете отправить публикацию на главную"
+
+#: inc/company/ajax/post.php:80
+msgid "Blogs"
+msgstr "Блоги"
+
+#: inc/company/ajax/post.php:113
+msgid "Success create post"
+msgstr "Публикация создана"
+
+#: inc/company/ajax/post.php:115
+msgid "Success update post"
+msgstr "Публикация обновлена"
+
+#: inc/company/ajax/post.php:140
+msgid "Post removed"
+msgstr "Публикация удалена"
+
+#: inc/company/ajax/post.php:167
+msgid "Post send to moderate"
+msgstr "Публикация отправлена на модерацию"
+
+#: inc/company/ajax/post.php:167 inc/company/ajax/post.php:173
+msgid "Post published"
+msgstr "Запись опубликована"
+
+#: inc/company/ajax/vacancy.php:27
+msgid "Specify required competences"
+msgstr "Укажите требуемые компетенции"
+
+#: inc/company/ajax/vacancy.php:85 inc/company/ajax/vacancy.php:225
+#: inc/company/vacancies/form.php:208
+msgid "Not enough RVD on balance"
+msgstr "Недостаточно RVD"
+
+#: inc/company/ajax/vacancy.php:112
+msgid "Success create vacancy"
+msgstr "Вакансия создана"
+
+#: inc/company/ajax/vacancy.php:114
+msgid "Success update vacancy"
+msgstr "Вакансия обновлена"
+
+#: inc/company/ajax/vacancy.php:139
+msgid "Vacancy removed"
+msgstr "Вакансия удалена"
+
+#: inc/company/ajax/vacancy.php:165
+msgid "Vacancy hided"
+msgstr "Вакансия скрыта"
+
+#: inc/company/ajax/vacancy.php:244
+msgid "Vacancy published"
+msgstr "Вакансия опубликована"
+
+#: inc/company/billing/list.php:18
+msgid "Transactions"
+msgstr "Транзакции"
+
+#: inc/company/billing/list.php:90
+msgid "Transactions not found"
+msgstr "Транзакции не найдены"
+
+#: inc/company/blog/form.php:10
+msgid "No access to current page"
+msgstr "Нет доступа"
+
+#: inc/company/blog/form.php:43
+msgid "Publication"
+msgstr "Публикация"
+
+#: inc/company/blog/form.php:45
+msgid "Remove publication?"
+msgstr "Удалить публикацию?"
+
+#: inc/company/blog/form.php:53
+msgid "New pulication"
+msgstr "Новая публикация"
+
+#: inc/company/blog/form.php:70
+msgid "More than 418 x 315"
+msgstr "Более 418 x 315"
+
+#: inc/company/blog/form.php:78
+msgid "Change thumbnail"
+msgstr "Изменить миниатюру"
+
+#: inc/company/blog/form.php:78
+msgid "Chose thumbnail"
+msgstr "Выбрать миниатюру"
+
+#: inc/company/blog/form.php:87
+msgid "Post title"
+msgstr "Заголовок"
+
+#: inc/company/blog/form.php:95
+msgid "Category"
+msgstr "Категория"
+
+#: inc/company/blog/form.php:96 inc/company/links/form.php:82
+#: inc/company/main/form.php:90
+msgid "No results match"
+msgstr "Ничего не найдено"
+
+#: inc/company/blog/form.php:115
+msgid "Tags"
+msgstr "Теги"
+
+#: inc/company/blog/form.php:143
+msgid "To draft"
+msgstr "В черновики"
+
+#: inc/company/blog/form.php:147
+#: inc/company/template_parts/content-company-post.php:127
+#: inc/company/vacancies/form.php:206 inc/company/vacancies/form.php:213
+#: inc/company/vacancies/list.php:120 inc/company/vacancies/list.php:130
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: inc/company/blog/form.php:155 inc/company/blog/form.php:177
+msgid "To main"
+msgstr "На главную"
+
+#: inc/company/blog/form.php:161
+msgid "In a week you can send 1 publication"
+msgstr "На этой неделе вы уже отправили 1 публикацию"
+
+#: inc/company/blog/form.php:177 inc/company/blog/list.php:23
+#: inc/company/template_parts/content-company-post.php:69
+msgid "On main"
+msgstr "На главной"
+
+#: inc/company/blog/list.php:20 inc/company/vacancies/list.php:5
+msgid "All"
+msgstr "Все"
+
+#: inc/company/blog/list.php:21
+msgid "Drafts"
+msgstr "Черновики"
+
+#: inc/company/blog/list.php:22 inc/company/vacancies/list.php:7
+msgid "Publisheds"
+msgstr "Опубликованные"
+
+#: inc/company/blog/list.php:47
+msgid "Publications"
+msgstr "Публикации"
+
+#: inc/company/blog/list.php:77 inc/company/blog/list.php:100
+msgid "Not found posts for query"
+msgstr "Не найдены публикации по данному запросу"
+
+#: inc/company/blog/list.php:106
+msgid "Posts not found, create first post now"
+msgstr "Публикации не найдены"
+
+#: inc/company/links/form.php:45
+msgid "link"
+msgstr "Ссылка"
+
+#: inc/company/links/form.php:47 inc/company/links/list.php:53
+msgid "Remove link?"
+msgstr "Удалить ссылку?"
+
+#: inc/company/links/form.php:53
+msgid "New link"
+msgstr "Новая ссылка"
+
+#: inc/company/links/form.php:60 inc/company/main/form.php:100
+msgid "Description"
+msgstr "Описание"
+
+#: inc/company/links/form.php:65
+msgid "Enter title of url"
+msgstr "Введите заголовок"
+
+#: inc/company/links/form.php:71
+msgid "Url"
+msgstr "Ссылка"
+
+#: inc/company/links/form.php:76
+msgid "Enter url"
+msgstr "Введите ссылку"
+
+#: inc/company/links/form.php:81
+msgid "Order position"
+msgstr "Позиция"
+
+#: inc/company/links/form.php:82
+msgid "Select position"
+msgstr "Выберите позицию"
+
+#: inc/company/links/list.php:78
+msgid "Not found links for query"
+msgstr "Ссылки не найдены"
+
+#: inc/company/links/list.php:84
+msgid "Links not found, create first now"
+msgstr "Ссылки не найдены, создайте новую ссылку"
+
+#: inc/company/main/form.php:50
+msgid "Set top image"
+msgstr "Установить верхний баннер"
+
+#: inc/company/main/form.php:85
+msgid "Banner url"
+msgstr "URL Баннера"
+
+#: inc/company/main/form.php:90
+msgid "Select multiple tags"
+msgstr "Выберите несколько тегов"
+
+#: inc/company/main/view.php:69
+msgid "Company Profile"
+msgstr "Профиль"
+
+#: inc/company/main/view.php:78
+msgid "The company does not have a description, add it "
+msgstr "У компании нет описания, добавьте его"
+
+#: inc/company/main/view.php:80
+msgid "now"
+msgstr "сейчас"
+
+#: inc/company/members/list.php:43
+msgid "Remove member?"
+msgstr "Удалить сотрудника?"
+
+#: inc/company/members/list.php:51
+msgid "Its you"
+msgstr "Это вы"
+
+#: inc/company/members/modal.php:7
+msgid "Add user to company member"
+msgstr "Добавить пользователя в компанию"
+
+#: inc/company/members/modal.php:14
+msgid "Enter email"
+msgstr "Введите EMAIL"
+
+#: inc/company/members/modal.php:19
+msgid "EMAIL"
+msgstr "EMAIL"
+
+#: inc/company/members/modal.php:21
+msgid "On the email will come instructions for the entrance"
+msgstr "На указанный EMAIL придут дальнейшие инструкции для входа"
+
+#: inc/company/members/modal.php:30
+msgid "Next"
+msgstr "Далее"
+
+#: inc/company/template_parts/content-company-post.php:65
+msgid "Draft"
+msgstr "Черновик"
+
+#: inc/company/template_parts/content-company-post.php:67
+msgid "Post on moderation"
+msgstr "Не модерации"
+
+#: inc/company/template_parts/content-company-post.php:113
+msgid "View"
+msgstr "Смотреть"
+
+#: inc/company/template_parts/content-company-post.php:126
+msgid "Publish post?"
+msgstr "Опубликовать запись?"
+
+#: inc/company/vacancies/form.php:41
+msgid "Vacancy"
+msgstr "Вакансия"
+
+#: inc/company/vacancies/form.php:43 inc/company/vacancies/list.php:138
+msgid "Remove vacancy?"
+msgstr "Удалить вакансию?"
+
+#: inc/company/vacancies/form.php:49
+msgid "New vacancy"
+msgstr "Новая вакансия"
+
+#: inc/company/vacancies/form.php:56
+msgid "Position"
+msgstr "Должность"
+
+#: inc/company/vacancies/form.php:62
+msgid "Enter the position"
+msgstr "Укажите должность"
+
+#: inc/company/vacancies/form.php:97
+msgid "City"
+msgstr "Город"
+
+#: inc/company/vacancies/form.php:102
+msgid "City name"
+msgstr "Название города"
+
+#: inc/company/vacancies/form.php:109
+msgid "Remote work is possible"
+msgstr "Возможна удаленная работа"
+
+#: inc/company/vacancies/form.php:115
+msgid "Required competences"
+msgstr "Требуемые компетенции"
+
+#: inc/company/vacancies/form.php:123
+msgid "Add competencies"
+msgstr "Добавить компетенцию"
+
+#: inc/company/vacancies/form.php:129
+msgid "Requirements"
+msgstr "Требования"
+
+#: inc/company/vacancies/form.php:134
+msgid "Describe the requirements for the candidate"
+msgstr "Укажите требования к кандидату"
+
+#: inc/company/vacancies/form.php:140
+msgid "Official duties"
+msgstr "Обязанности"
+
+#: inc/company/vacancies/form.php:145
+msgid "Describe duties"
+msgstr "Опишите обязанности"
+
+#: inc/company/vacancies/form.php:151
+msgid "Working conditions"
+msgstr "Условия работы"
+
+#: inc/company/vacancies/form.php:156
+msgid "Describe the conditions"
+msgstr "Опишите условия работы"
+
+#: inc/company/vacancies/form.php:163
+msgid "Contacts for communication"
+msgstr "Контакты для связи"
+
+#: inc/company/vacancies/form.php:175
+msgid "Email address"
+msgstr "EMAIL"
+
+#: inc/company/vacancies/form.php:180
+msgid "Skype"
+msgstr "Skype"
+
+#: inc/company/vacancies/form.php:181
+msgid "Login"
+msgstr "Логин"
+
+#: inc/company/vacancies/form.php:186
+msgid "Phone"
+msgstr "Телефон"
+
+#: inc/company/vacancies/form.php:202 inc/company/vacancies/list.php:125
+msgid "Hide"
+msgstr "Скрыть"
+
+#: inc/company/vacancies/form.php:209
+msgid "To post additional vacancies, fill in the account"
+msgstr "Для публикации вакансий пополните баланс"
+
+#: inc/company/vacancies/list.php:6
+msgid "Paids"
+msgstr "Оплаченные"
+
+#: inc/company/vacancies/list.php:99
+msgid "Published"
+msgstr "Опубликована"
+
+#: inc/company/vacancies/list.php:102
+msgid "Paid"
+msgstr "Оплачена"
+
+#: inc/company/vacancies/list.php:119 inc/company/vacancies/list.php:129
+msgid "Publish vacancy?"
+msgstr "Опубликовать ваканасию?"
+
+#: inc/company/vacancies/list.php:124
+msgid "Hide vacancy?"
+msgstr "Скрыть вакансию?"
+
+#: inc/company/vacancies/list.php:256
+msgid "Not found vacancies for query"
+msgstr "Вакансии не найдены"
+
+#: inc/company/vacancies/list.php:262
+msgid "Vacancies not found, create first now"
+msgstr "Вакансии не найдены, создайте новую"

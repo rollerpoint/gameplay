@@ -1,0 +1,15 @@
+{
+    "name": "penkovskiy/ruvod",
+    "description": "Wp plugin for ruvod.com",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Boris Penkovskiy",
+            "email": "able1221@gmail.com"
+        }
+    ],
+    "require": {
+      "matthiasnoback/microsoft-translator": "dev-master",
+        "phpoffice/phpexcel": "^1.8"
+    }
+}

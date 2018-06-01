@@ -1,0 +1,18 @@
+@import "404";
+
+header .page-title {
+	margin-bottom: 1em;
+}
+.search-results{
+	.post-list__item-content{
+		flex-direction: column !important;
+	}
+}
+
+.page-title{
+	margin-bottom: 20px;
+	& + .posts-list--masonry-2-cols,
+	& + .posts-list--masonry-3-cols{
+		margin-top: -20px;
+	}
+}

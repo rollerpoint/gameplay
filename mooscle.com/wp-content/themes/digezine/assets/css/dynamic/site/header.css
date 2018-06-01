@@ -1,0 +1,131 @@
+/* #Header */
+.header-container {
+	background-color: $header_bg_color;
+	background-image: url($header_bg_image);
+	background-repeat: $header_bg_repeat;
+	background-position: $header_bg_position_x top;
+	background-attachment: $header_bg_attachment;
+}
+
+@media (min-width: 1200px ) {
+	.site-header.style-5.transparent .header-container {
+		max-width: calc($container_width{px} - 40px);
+	}
+}
+
+/* ##Logo */
+.site-logo {
+	font-style: $header_logo_font_style;
+	font-weight: $header_logo_font_weight;
+	font-size: $header_logo_font_size{px};
+	font-family: @font_family( $header_logo_font_family );
+}
+.site-logo__link,
+.site-logo__link:hover {
+	color: $regular_accent_color_2;
+}
+
+/* ##Top Panel */
+.top-panel {
+	background-color: $top_panel_bg;
+}
+
+.site-header-cart .cart-contents i {
+	color: @lighten($regular_text_color, 25%);
+}
+
+.invert .site-header-cart .cart-contents i {
+	color: $invert_text_color;
+}
+
+.site-header-cart .cart-contents:hover i,
+.invert .site-header-cart .cart-contents:hover i{
+	color: $regular_link_color;
+}
+
+.top-panel__message{
+	color: $regular_accent_color_1;
+}
+
+/*Contact block*/
+.site-header .contact-block__label {
+	color: $regular_accent_color_2;
+}
+
+.site-header .invert .contact-block__label {
+	color: $invert_accent_color_2;
+}
+
+.contact-block__icon {
+	color: $regular_accent_color_1;
+}
+
+.invert .contact-block__icon {
+	color: $invert_accent_color_1;
+}
+
+.site-header{
+	border-color: $regular_accent_color_2;
+}
+
+.menu a{
+	font-family: @font_family( $meta_font_family );
+}
+
+.main-navigation .menu > li:before,
+.news-smart-box__navigation-terms-list-item:before{
+	background-color: $regular_accent_color_1;
+}
+
+.main-navigation .menu > li > a,
+.invert .main-navigation.vertical-menu .menu > li > a,
+.invert .main-navigation .menu.isStuck > li > a,
+.invert .main-navigation.mobile-menu .menu > li > a{
+	color: $invert_accent_color_3;
+}
+
+.main-navigation .menu > li > a:hover,
+.main-navigation .menu > li.menu-hover > a,
+.main-navigation .menu > li.tm-mega-menu-hover > a,
+.main-navigation .menu > li.current_page_item > a,
+.main-navigation .menu > li.current_page_ancestor > a,
+.main-navigation .menu > li.current-menu-item > a,
+.main-navigation .menu > li.current-menu-ancestor > a,
+.invert .main-navigation.vertical-menu .menu > li > a:hover,
+.invert .main-navigation.vertical-menu .menu > li.menu-hover > a,
+.invert .main-navigation.vertical-menu .menu > li.current_page_item > a,
+.invert .main-navigation.vertical-menu .menu > li.current_page_ancestor > a,
+.invert .main-navigation.vertical-menu .menu > li.current-menu-item > a,
+.invert .main-navigation.vertical-menu .menu > li.current-menu-ancestor > a,
+.invert .main-navigation .menu.isStuck > li > a:hover, .invert .main-navigation .menu.isStuck > li.menu-hover > a,
+.invert .main-navigation .menu.isStuck > li.curr.ent_page_item > a,
+.invert .main-navigation .menu.isStuck > li.current_page_ancestor > a,
+.invert .main-navigation .menu.isStuck > li.current-menu-item > a,
+.invert .main-navigation .menu.isStuck > li.current-menu-ancestor > a,
+.invert .main-navigation.mobile-menu .menu > li > a:hover,
+.invert .main-navigation.mobile-menu .menu > li.menu-hover > a,
+.invert .main-navigation.mobile-menu .menu > li.current_page_item > a,
+.invert .main-navigation.mobile-menu .menu > li.current_page_ancestor > a,
+.invert .main-navigation.mobile-menu .menu > li.current-menu-item > a,
+.invert .main-navigation.mobile-menu .menu > li.current-menu-ancestor > a{
+	color: $regular_accent_color_2;
+}
+
+.main-navigation .menu li.menu-item-has-children:not(.super-guacamole__menu-with-icon):hover > a:after,
+.main-navigation .menu li.menu-item-has-children:not(.super-guacamole__menu-with-icon).current-menu-item > a:after{
+	color: $regular_accent_color_1;
+}
+
+.main-navigation:not(.vertical-menu) .sub-menu,
+.main-navigation.mobile-menu{
+	background-color: $invert_accent_color_2;
+}
+
+.btn-default.header-btn.btn{
+	font-family: @font_family( $meta_font_family );
+	color: $invert_accent_color_3;
+}
+
+.btn-default.header-btn.btn:hover{
+	color:$regular_accent_color_1;
+}

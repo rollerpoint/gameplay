@@ -1,0 +1,41 @@
+.site-footer {
+	@include font-size(0.75);
+	line-height: 1.714285;
+	@media (min-width: 992px) {
+		.footer-area{
+			padding: 57px 0 60px;
+		}
+	}
+	.widget{
+		margin-bottom: 38px;
+	}
+	.widget-custom-posts .custom-posts__holder{
+		margin-bottom: 0;
+	}
+	&.style-2{
+		.footer-container {
+			padding-top: 70px;
+			padding-bottom: 70px;
+		}
+	}
+}
+
+.footer-container {
+	padding: 0;
+	&:first-child {
+		padding-top: 0;
+	}
+}
+
+.site-info {
+	.footer-logo,
+	.social-list,
+	.footer-menu,
+	.footer-copyright {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@import "footer/layout-style-1";
+@import "footer/layout-style-2";

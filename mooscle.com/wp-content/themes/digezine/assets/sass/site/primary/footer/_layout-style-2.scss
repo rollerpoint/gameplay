@@ -1,0 +1,32 @@
+.site-footer.style-2 {
+	.footer-container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		&:first-child {
+			padding-top: 0;
+		}
+	}
+	.site-info {
+		text-align: center;
+
+		> * + *{
+			margin-top: 30px;
+		}
+
+		> * + .social-list{
+			margin: 55px 0;
+		}
+
+		> * + .footer-copyright{
+			margin: 55px 0 0;
+		}
+	}
+}
+
+.footer-style-2{
+	.after-content-full-width-area{
+		.menu{
+			justify-content: center;
+		}
+	}
+}

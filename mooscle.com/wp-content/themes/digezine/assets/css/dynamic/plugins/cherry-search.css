@@ -1,0 +1,46 @@
+.invert input[type='search']{
+	 color: $invert_text_color;
+}
+
+.invert input[type='search']{
+	color: $invert_text_color;
+}
+
+.invert .cherry-search__results-item a,
+.invert .cherry-search__results-list{
+	color: $regular_text_color;
+}
+
+.site-header .invert .search-submit{
+	color: $invert_text_color;
+}
+
+.site-header .invert .search-submit:hover{
+	color: $regular_accent_color_1;
+}
+
+.mobile-panel .cherry-search .cherry-search__submit{
+	color: $regular_text_color;
+}
+
+.top-panel .cherry-search .cherry-search__submit{
+	color: $regular_text_color;
+}
+
+.top-panel .cherry-search .cherry-search__submit:hover{
+	color: $regular_accent_color_1;
+}
+
+.invert input[type='search'] {	color: $invert_text_color; }
+.invert input[type='search']::-webkit-input-placeholder { color: $invert_text_color; }
+.invert input[type='search']::-moz-placeholder { color: $invert_text_color; }
+.invert input[type='search']:-moz-placeholder { color: $invert_text_color; }
+.invert input[type='search']:-ms-input-placeholder { color: $invert_text_color; }
+
+.sidebar .cherry-search__submit{
+	color:$regular_accent_color_3;
+}
+
+.sidebar .cherry-search__submit:hover{
+	color:$regular_accent_color_1;
+}

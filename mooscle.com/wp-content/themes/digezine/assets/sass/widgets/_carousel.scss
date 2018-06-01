@@ -1,0 +1,256 @@
+.widget-carousel {
+	overflow: hidden;
+	.swiper {
+		&-carousel-container {
+			position: relative;
+		}
+
+		&-container {
+			overflow: visible;
+		}
+
+		&-slide {
+			display: flex;
+			height: auto;
+
+			.inner {
+				display: flex;
+				overflow: hidden;
+				flex-direction: column;
+				width: 100%;
+				justify-content: space-between;
+				align-self: stretch;
+			}
+			.entry {
+				&-content {
+					margin: 0;
+				}
+				&-title {
+					margin-bottom: 5px;
+				}
+			}
+			.post-thumbnail__link {
+				display: block;
+				overflow: hidden;
+				margin-bottom: 10px;
+				position: relative;
+				&:before{
+					content: "";
+					position:absolute;
+					left:0;
+					right:0;
+					top:100%;
+					bottom:0;
+					display: inline-block;
+					z-index: 1;
+					transition: $transition-img;
+				}
+				&:hover {
+					.post-thumbnail__img {
+						will-change: transform;
+						transform: scale(1.2) translateY(-10px);
+					}
+					&:before{
+						top:0;
+					}
+				}
+			}
+			.post-thumbnail__img {
+				display: block;
+				width: 100%;
+				transform: scale(1.2);
+				transition: $transition-img;
+				will-change: transform;
+			}
+			.carousel__more-btn {
+				margin-top: 25px;
+			}
+			.post__excerpt {
+				margin-top: 1.2em;
+			}
+
+			& + .swiper-slide {
+				position: relative;
+				&:before {
+					content: "";
+					position: absolute;
+					width: 1px;
+					top: 0;
+					bottom: 0;
+					left: -15px;
+					background-color: $color__background-hr;
+					display: inline-block;
+					@media (min-width: 1200px) {
+						left: -20px;
+					}
+				}
+			}
+		}
+		&-pagination {
+			margin-top: 48px;
+			position: static;
+		}
+		&-button-next,
+		&-button-prev {
+			top: -12px;
+			width: 20px;
+			height: 20px;
+			background-color: transparent;
+			opacity: 1;
+			transition: .3s;
+			&:hover {
+				cursor: pointer;
+			}
+			i {
+				line-height: 20px;
+				font-size: 14px;
+			}
+			.sidebar & {
+				@include media-breakpoint-up(lg) {
+					top: 25%;
+				}
+			}
+			.footer-area:not(.footer-area--fullwidth) & {
+				@include media-breakpoint-up(md) {
+					top: 25%;
+				}
+			}
+		}
+		&-button-next {
+			.content-layout-boxed .before-content-area &,
+			.content-layout-boxed .after-content-area & {
+				@media (min-width: 1600px) {
+					right: -50px;
+				}
+			}
+			i:before {
+				content: '\f054';
+				@include font-awesome-icon;
+			}
+		}
+		&-button-prev {
+			.content-layout-boxed .before-content-area &,
+			.content-layout-boxed .after-content-area & {
+				@media (min-width: 1600px) {
+					left: -50px;
+				}
+			}
+			i:before {
+				content: '\f053';
+				@include font-awesome-icon;
+			}
+		}
+		&-button-prev,
+		&-container.swiper-container-horizontal .swiper-button-prev {
+			left: auto;
+			right: 30px;
+		}
+	}
+	.swiper-container[data-space-between-slides="0"] {
+		.swiper-slide:before {
+			display: none;
+		}
+	}
+	.posted-by {
+		display: block;
+	}
+	.swiper-slide-inner {
+		position: relative;
+		.category {
+			position: absolute;
+			left: 12px;
+			right: 12px;
+			top: 12px;
+			z-index: 1;
+		}
+	}
+}
+
+@include sidebars-area(false) {
+	.widget-carousel {
+		.entry-title {
+			@include font-size(18/16);
+		}
+		.swiper-button-next,
+		.swiper-button-prev {
+			top: 30%;
+		}
+	}
+}
+
+.after-content-full-width-area {
+	.widget-carousel {
+		.post-thumbnail__link {
+			margin-bottom: 0;
+		}
+		.content-wrapper {
+			position: absolute;
+			bottom: 28px;
+			left: 28px;
+			z-index: 2;
+		}
+		.swiper-button-next,
+		.swiper-button-prev {
+			top: 50%;
+			width: 20px;
+			height: 20px;
+			background-color: transparent;
+			opacity: 1;
+			transition: .3s;
+			&:hover {
+				cursor: pointer;
+			}
+			i {
+				line-height: 20px;
+				font-size: 14px;
+			}
+		}
+		.swiper-button-prev,
+		.swiper-container.swiper-container-horizontal .swiper-button-prev {
+			left: 10px;
+		}
+	}
+	.posted-by {
+		display: inline-block;
+	}
+	.swiper-slide-inner {
+
+		.post-thumbnail__link{
+			position: relative;
+			img{
+				transform: scale(1.15);
+				transition: $transition-img;
+				will-change: transform;
+			}
+			&:before{
+				display: none;
+			}
+		}
+
+		&:before {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 50%;
+			bottom: 0;
+			display: inline-block;
+			z-index: 1;
+			transition: .3s;
+		}
+		.category {
+			left: 30px;
+			top: 30px;
+		}
+		&:hover {
+			&:before {
+				top: 20%;
+			}
+			.post-thumbnail__link{
+				img{
+					transform: translateY(-20px) scale(1.15);
+				}
+			}
+		}
+	}
+}

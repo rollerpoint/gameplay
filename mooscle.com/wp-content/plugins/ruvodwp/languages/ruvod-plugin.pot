@@ -1,0 +1,1081 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-23 16:27+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: page-account.php:18 ruvod.php:319
+msgid "Account"
+msgstr ""
+
+#: page-account.php:20 page-company.php:147 post-company.php:54 ruvod.php:321
+#: inc/account/profile/view.php:20 inc/company/main/form.php:92
+msgid "Profile"
+msgstr ""
+
+#: page-company.php:9 inc/company/main/view.php:60
+msgid "Company Profile"
+msgstr ""
+
+#: page-company.php:10
+msgid "Blog"
+msgstr ""
+
+#: page-company.php:11 page-company.php:104 post-company.php:99
+#: inc/company/vacancies/list.php:20
+msgid "Vacancies"
+msgstr ""
+
+#: page-company.php:12 page-company.php:172 post-company.php:76
+#: inc/company/links/list.php:23
+msgid "Links"
+msgstr ""
+
+#: page-company.php:14 page-company.php:55 inc/company/members/list.php:18
+msgid "Members"
+msgstr ""
+
+#: page-company.php:43
+msgid "Information"
+msgstr ""
+
+#: page-company.php:47
+msgid "Link to blog"
+msgstr ""
+
+#: page-company.php:50
+msgid "Link"
+msgstr ""
+
+#: page-company.php:78
+msgid "Blog records"
+msgstr ""
+
+#: page-company.php:130
+msgid "Balance"
+msgstr ""
+
+#: page-company.php:194
+msgid "Latest publciations"
+msgstr ""
+
+#: page-company.php:196 page-company.php:246 inc/account/profile/form.php:56
+#: inc/company/blog/form.php:67 inc/company/main/form.php:43
+#: inc/company/main/form.php:71 inc/company/main/form.php:81
+msgid "Add"
+msgstr ""
+
+#: page-company.php:244
+msgid "Latest vacancies"
+msgstr ""
+
+#: post-company.php:161
+msgid "Experts"
+msgstr ""
+
+#: post-company.php:210
+msgid "New comment"
+msgstr ""
+
+#: post-company.php:269
+msgid "Company vacancies"
+msgstr ""
+
+#: ruvod.php:98
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ruvod.php:316 inc/vacancies.php:16
+msgid "Company"
+msgstr ""
+
+#: ruvod.php:323
+msgid "Log out"
+msgstr ""
+
+#: ruvod.php:327
+msgid "Log In"
+msgstr ""
+
+#: ruvod.php:577
+msgid "Thumb in ruvod publication"
+msgstr ""
+
+#: ruvod.php:584
+msgid "Post Thumbnail"
+msgstr ""
+
+#: single-cv.php:107 single-vacancy.php:76 single-vacancy.php:267
+#: inc/account/profile/view.php:114 inc/company/vacancies/form.php:54
+#: inc/company/vacancies/list.php:72
+msgid "Salary"
+msgstr ""
+
+#: single-cv.php:112 single-vacancy.php:83 single-vacancy.php:272
+#: inc/account/profile/view.php:119 inc/company/vacancies/form.php:57
+#: inc/company/vacancies/list.php:77
+msgid "From"
+msgstr ""
+
+#: single-cv.php:114 single-vacancy.php:85 single-vacancy.php:274
+#: inc/account/profile/view.php:121 inc/company/vacancies/form.php:60
+#: inc/company/vacancies/list.php:79
+msgid "To"
+msgstr ""
+
+#: single-vacancy.php:52 inc/company/vacancies/form.php:45
+msgid "Employment"
+msgstr ""
+
+#: single-vacancy.php:58 inc/company/vacancies/form.php:47
+msgid "Full employment"
+msgstr ""
+
+#: single-vacancy.php:59 inc/company/vacancies/form.php:48
+msgid "Part-time employment"
+msgstr ""
+
+#: single-vacancy.php:81 inc/company/vacancies/form.php:68
+#: inc/company/vacancies/list.php:75
+msgid "Based on the results of the interview"
+msgstr ""
+
+#: single-vacancy.php:147
+msgid "Answers to your vacancy"
+msgstr ""
+
+#: single-vacancy.php:151
+msgid "Sorry. There have been no answers to this vacancy"
+msgstr ""
+
+#: single-vacancy.php:324 single-vacancy.php:334 single-vacancy.php:343
+msgid "Answer"
+msgstr ""
+
+#: single-vacancy.php:327
+msgid "You have already responded to this vacancy"
+msgstr ""
+
+#: single-vacancy.php:360
+msgid "Vacancy answer"
+msgstr ""
+
+#: single-vacancy.php:377
+msgid "Message to the employer"
+msgstr ""
+
+#: single-vacancy.php:391
+msgid "To answer a vacancy, you need to create a CV"
+msgstr ""
+
+#: single-vacancy.php:394 inc/account/cvs/list.php:98
+#: inc/account/email_subscribers/form.php:56 inc/company/blog/list.php:109
+#: inc/company/links/list.php:82 inc/company/vacancies/list.php:123
+msgid "Create"
+msgstr ""
+
+#: single-vacancy.php:401
+msgid "To apply for a vacancy, you must log in"
+msgstr ""
+
+#: single-vacancy.php:426 inc/donate.php:54 inc/rumor.php:38
+#: inc/subscribe.php:31 inc/telegram.php:344
+msgid "Send"
+msgstr ""
+
+#: inc/calendar.php:138
+msgid "Releases calendar sidebar"
+msgstr ""
+
+#: inc/calendar.php:139
+msgid "Calendar sidebar after calendar filter"
+msgstr ""
+
+#: inc/calendar.php:149
+msgid "Digital releases"
+msgstr ""
+
+#: inc/calendar.php:154 inc/calendar.php:208
+msgid "Distributor"
+msgstr ""
+
+#: inc/calendar.php:155 inc/calendar.php:213
+msgid "Genre"
+msgstr ""
+
+#: inc/calendar.php:156 inc/calendar.php:218
+msgid "Monetization model"
+msgstr ""
+
+#: inc/calendar.php:157 inc/calendar.php:203
+msgid "Marketplace"
+msgstr ""
+
+#: inc/calendar.php:159
+msgid "Piracy index"
+msgstr ""
+
+#: inc/calendar.php:162
+msgid ""
+"Reflects the percentage of links with illegal copies on the first page of "
+"search engines"
+msgstr ""
+
+#: inc/calendar.php:162 inc/calendar.php:173
+msgid "Data provided"
+msgstr ""
+
+#: inc/calendar.php:169
+msgid "Formats of pirated copies"
+msgstr ""
+
+#: inc/calendar.php:173
+msgid "Reflects the quality of illegal copies on the network"
+msgstr ""
+
+#: inc/calendar.php:184
+msgid "Close"
+msgstr ""
+
+#: inc/calendar.php:199
+msgid "Movie"
+msgstr ""
+
+#: inc/calendar.php:200
+msgid "Title"
+msgstr ""
+
+#: inc/calendar.php:204 inc/calendar.php:209 inc/calendar.php:214
+#: inc/calendar.php:219
+msgid "Select some option"
+msgstr ""
+
+#: inc/calendar.php:224
+msgid "Download template"
+msgstr ""
+
+#: inc/calendar.php:227 inc/vacancies.php:8 inc/vacancies.php:13
+msgid "Search"
+msgstr ""
+
+#: inc/company.php:33
+msgid "Companies sidebar"
+msgstr ""
+
+#: inc/company.php:34
+msgid "Calendar sidebar after vacancies and experts"
+msgstr ""
+
+#: inc/donate.php:7 inc/donate.php:24
+msgid "Donate"
+msgstr ""
+
+#: inc/donate.php:39 inc/account/settings.php:69
+msgid "Pay by card"
+msgstr ""
+
+#: inc/donate.php:43
+msgid "Specify the amount. Your funds will be used to develop the resource."
+msgstr ""
+
+#: inc/email_subscribers.php:57
+msgid "Email already exists in the list of subscribers"
+msgstr ""
+
+#: inc/memberships.php:183
+msgid "This material is available only by subscription"
+msgstr ""
+
+#: inc/memberships.php:189
+msgid ""
+"To subscribe, please contact us by <a href=\"mailto:info@ruvod.com"
+"\">info@ruvod.com</a>"
+msgstr ""
+
+#: inc/rumor.php:24
+msgid "Share rumors anonymously"
+msgstr ""
+
+#: inc/rumor.php:30
+msgid "Set form_id option in plugin settings"
+msgstr ""
+
+#: inc/rumor.php:41
+msgid "100% anonymous"
+msgstr ""
+
+#: inc/rumor.php:46
+msgid "Add file"
+msgstr ""
+
+#: inc/rumor.php:63
+msgid "Share rumors"
+msgstr ""
+
+#: inc/subscribe.php:17 inc/subscribe.php:46
+msgid "Subscribe"
+msgstr ""
+
+#: inc/subscribe.php:23
+msgid "Set form_id option for shordcode(contact-form-7)"
+msgstr ""
+
+#: inc/telegram.php:343
+msgid "Save comment?"
+msgstr ""
+
+#: inc/telegram.php:343
+msgid "Send comment?"
+msgstr ""
+
+#: inc/telegram.php:344 inc/account/main/change_password.php:18
+#: inc/account/main/edit.php:29 inc/account/profile/form.php:311
+#: inc/company/blog/form.php:123 inc/company/links/form.php:86
+#: inc/company/main/form.php:108 inc/company/vacancies/form.php:146
+msgid "Save"
+msgstr ""
+
+#: inc/telegram.php:349
+msgid "Remove comment?"
+msgstr ""
+
+#: inc/telegram.php:350 inc/company/blog/form.php:47
+#: inc/company/links/form.php:48 inc/company/members/list.php:43
+#: inc/company/vacancies/form.php:26
+msgid "Remove"
+msgstr ""
+
+#: inc/vacancies.php:20
+msgid "Select company"
+msgstr ""
+
+#: inc/vacancies.php:81
+msgid "Fill out the profile in your account"
+msgstr ""
+
+#: inc/vacancies.php:105
+msgid "This vacancy already has a answer"
+msgstr ""
+
+#: inc/vacancies.php:131
+msgid "Hello."
+msgstr ""
+
+#: inc/vacancies.php:134
+msgid "left a response to your vacancy"
+msgstr ""
+
+#: inc/vacancies.php:137
+msgid "Message from the candidate:"
+msgstr ""
+
+#: inc/vacancies.php:141
+msgid ""
+"Go to a specialist profile to learn more about it, or see contact details."
+msgstr ""
+
+#: inc/vacancies.php:145
+msgid "New answer to the vacancy of"
+msgstr ""
+
+#: inc/vacancies.php:153
+msgid "Answer created"
+msgstr ""
+
+#: inc/account/email_subscribers.php:12
+msgid "Added subscriptions"
+msgstr ""
+
+#: inc/account/email_subscribers.php:16
+msgid "Add new subscriber"
+msgstr ""
+
+#: inc/account/email_subscribers.php:37
+#: inc/account/email_subscribers/form.php:34 inc/account/main/edit.php:9
+#: inc/account/main/edit.php:10 inc/account/main/view.php:11
+#: inc/company/vacancies/form.php:123
+msgid "Email"
+msgstr ""
+
+#: inc/account/email_subscribers.php:38
+msgid "User name"
+msgstr ""
+
+#: inc/account/email_subscribers.php:39
+#: inc/account/email_subscribers/form.php:22
+msgid "Company Name"
+msgstr ""
+
+#: inc/account/email_subscribers.php:39
+#: inc/account/email_subscribers/form.php:28
+msgid "Job"
+msgstr ""
+
+#: inc/account/email_subscribers.php:40
+msgid "Created At"
+msgstr ""
+
+#: inc/account/email_subscribers.php:70
+msgid "Ничего не найдено"
+msgstr ""
+
+#: inc/account/settings.php:8
+msgid "Subscription renewal"
+msgstr ""
+
+#: inc/account/settings.php:8
+msgid "Subscription Formation"
+msgstr ""
+
+#: inc/account/settings.php:13
+msgid "Specify duration"
+msgstr ""
+
+#: inc/account/settings.php:17
+msgid "Month"
+msgstr ""
+
+#: inc/account/settings.php:21
+msgid "Three months"
+msgstr ""
+
+#: inc/account/settings.php:25
+msgid "Half a year"
+msgstr ""
+
+#: inc/account/settings.php:29
+msgid "Year"
+msgstr ""
+
+#: inc/account/settings.php:50
+msgid "By making payment you agree with"
+msgstr ""
+
+#: inc/account/settings.php:54
+msgid "subscription terms"
+msgstr ""
+
+#: inc/account/settings.php:81
+msgid "Subscription management"
+msgstr ""
+
+#: inc/account/settings.php:86
+msgid "Account Type"
+msgstr ""
+
+#: inc/account/settings.php:93
+msgid "Premium"
+msgstr ""
+
+#: inc/account/settings.php:97
+msgid "Valid until"
+msgstr ""
+
+#: inc/account/settings.php:101
+msgid "Extend"
+msgstr ""
+
+#: inc/account/settings.php:106
+msgid "Simple account"
+msgstr ""
+
+#: inc/account/settings.php:107
+msgid "A simple account has limited access to portal materials"
+msgstr ""
+
+#: inc/account/settings.php:110
+msgid "Upgrade"
+msgstr ""
+
+#: inc/account/ajax/profile.php:32 inc/company/ajax/company.php:18
+#: inc/company/ajax/post.php:24
+msgid "Select thumbnail"
+msgstr ""
+
+#: inc/account/ajax/profile.php:106 inc/account/profile/form.php:12
+#: inc/company/ajax/link.php:17 inc/company/ajax/link.php:101
+#: inc/company/ajax/member.php:24 inc/company/ajax/post.php:16
+#: inc/company/ajax/post.php:98 inc/company/ajax/vacancy.php:21
+#: inc/company/ajax/vacancy.php:90
+msgid "No access to this action"
+msgstr ""
+
+#: inc/account/ajax/profile.php:109
+msgid "CV removed"
+msgstr ""
+
+#: inc/account/ajax/user.php:13 inc/account/ajax/user.php:75
+msgid "Invalid password"
+msgstr ""
+
+#: inc/account/ajax/user.php:19 inc/account/ajax/user.php:81
+msgid "Password blank"
+msgstr ""
+
+#: inc/account/ajax/user.php:34
+msgid "Login is busy"
+msgstr ""
+
+#: inc/account/ajax/user.php:89
+msgid "Passwords do not match"
+msgstr ""
+
+#: inc/account/ajax/user.php:95
+msgid "Password must contain at least 8 characters"
+msgstr ""
+
+#: inc/account/cvs/list.php:16
+msgid "My cvs"
+msgstr ""
+
+#: inc/account/cvs/list.php:18 inc/company/blog/list.php:50
+#: inc/company/links/list.php:26 inc/company/members/list.php:23
+#: inc/company/vacancies/list.php:23
+msgid "New"
+msgstr ""
+
+#: inc/account/cvs/list.php:89
+msgid "Not found cvs for query"
+msgstr ""
+
+#: inc/account/cvs/list.php:95
+msgid "CV not found, create first now"
+msgstr ""
+
+#: inc/account/email_subscribers/form.php:6
+msgid "New subscriber"
+msgstr ""
+
+#: inc/account/email_subscribers/form.php:10
+msgid "First Name"
+msgstr ""
+
+#: inc/account/email_subscribers/form.php:16
+msgid "Last Name"
+msgstr ""
+
+#: inc/account/email_subscribers/form.php:42
+msgid "One-time delivery"
+msgstr ""
+
+#: inc/account/email_subscribers/form.php:63
+#: inc/account/main/change_password.php:22 inc/account/main/edit.php:33
+#: inc/company/blog/form.php:145 inc/company/links/form.php:90
+#: inc/company/main/form.php:112 inc/company/vacancies/form.php:160
+msgid "Loading"
+msgstr ""
+
+#: inc/account/main/change_password.php:3
+msgid "Password changed"
+msgstr ""
+
+#: inc/account/main/change_password.php:6
+#: inc/account/main/change_password.php:7 inc/account/main/edit.php:25
+#: inc/account/main/edit.php:26
+msgid "Current password"
+msgstr ""
+
+#: inc/account/main/change_password.php:10
+msgid "New Password"
+msgstr ""
+
+#: inc/account/main/change_password.php:11
+msgid "Password"
+msgstr ""
+
+#: inc/account/main/change_password.php:14
+msgid "Confirmation"
+msgstr ""
+
+#: inc/account/main/edit.php:1
+msgid "Profile editing"
+msgstr ""
+
+#: inc/account/main/edit.php:6
+msgid "Profile saved"
+msgstr ""
+
+#: inc/account/main/edit.php:13
+msgid "Username"
+msgstr ""
+
+#: inc/account/main/edit.php:14
+msgid "Username for login"
+msgstr ""
+
+#: inc/account/main/edit.php:17 inc/account/main/edit.php:18
+msgid "First name"
+msgstr ""
+
+#: inc/account/main/edit.php:21
+msgid "Second name"
+msgstr ""
+
+#: inc/account/main/edit.php:22
+msgid "Secon name"
+msgstr ""
+
+#: inc/account/main/view.php:2
+msgid "Hello"
+msgstr ""
+
+#: inc/account/main/view.php:14 inc/company/links/list.php:50
+#: inc/company/template_parts/content-company-post.php:120
+#: inc/company/vacancies/list.php:54
+msgid "Edit"
+msgstr ""
+
+#: inc/account/main/view.php:17
+msgid "Change password"
+msgstr ""
+
+#: inc/account/profile/form.php:55 inc/account/profile/form.php:56
+#: inc/company/blog/form.php:66 inc/company/blog/form.php:67
+#: inc/company/main/form.php:42 inc/company/main/form.php:43
+#: inc/company/main/form.php:53 inc/company/main/form.php:70
+#: inc/company/main/form.php:71 inc/company/main/form.php:81
+#: inc/company/main/view.php:55
+msgid "Change"
+msgstr ""
+
+#: inc/account/profile/form.php:58 inc/company/main/form.php:73
+msgid "500 x 500"
+msgstr ""
+
+#: inc/account/profile/form.php:62 inc/company/blog/form.php:73
+#: inc/company/main/form.php:49 inc/company/main/form.php:77
+msgid "Select file"
+msgstr ""
+
+#: inc/account/profile/form.php:66
+msgid "Change photo"
+msgstr ""
+
+#: inc/account/profile/form.php:66
+msgid "Chose photo"
+msgstr ""
+
+#: inc/account/profile/form.php:155 inc/company/vacancies/form.php:89
+msgid "Specify short tags"
+msgstr ""
+
+#: inc/company/ajax/company.php:54
+msgid "Success ubdate company"
+msgstr ""
+
+#: inc/company/ajax/link.php:77
+msgid "Success create link"
+msgstr ""
+
+#: inc/company/ajax/link.php:79
+msgid "Success update link"
+msgstr ""
+
+#: inc/company/ajax/link.php:104
+msgid "link removed"
+msgstr ""
+
+#: inc/company/ajax/member.php:16
+msgid "User deleted from your company"
+msgstr ""
+
+#: inc/company/ajax/member.php:43
+msgid "User already in your company"
+msgstr ""
+
+#: inc/company/ajax/member.php:48
+msgid "The user belongs to another company, ask him to leave her"
+msgstr ""
+
+#: inc/company/ajax/member.php:56
+msgid "User add to your company"
+msgstr ""
+
+#: inc/company/ajax/member.php:62
+msgid "User not found, please invite user by email"
+msgstr ""
+
+#: inc/company/ajax/member.php:87
+msgid ""
+"Hello. You were invited as an employee of the company on the RUVOD website."
+msgstr ""
+
+#: inc/company/ajax/member.php:89
+msgid "Login data:"
+msgstr ""
+
+#: inc/company/ajax/member.php:91
+msgid "Username : "
+msgstr ""
+
+#: inc/company/ajax/member.php:93
+msgid "Password : "
+msgstr ""
+
+#: inc/company/ajax/member.php:95
+msgid "Login url"
+msgstr ""
+
+#: inc/company/ajax/member.php:97
+msgid "You can change your login details in your personal account"
+msgstr ""
+
+#: inc/company/ajax/member.php:101
+msgid "Invite to RUVOD"
+msgstr ""
+
+#: inc/company/ajax/member.php:109
+msgid "User is added, instructions for login are sent to the specified mail"
+msgstr ""
+
+#: inc/company/ajax/post.php:53
+msgid "Blogs"
+msgstr ""
+
+#: inc/company/ajax/post.php:75
+msgid "Success create post"
+msgstr ""
+
+#: inc/company/ajax/post.php:77
+msgid "Success update post"
+msgstr ""
+
+#: inc/company/ajax/post.php:101
+msgid "Post removed"
+msgstr ""
+
+#: inc/company/ajax/vacancy.php:63
+msgid "Success create vacancy"
+msgstr ""
+
+#: inc/company/ajax/vacancy.php:65
+msgid "Success update vacancy"
+msgstr ""
+
+#: inc/company/ajax/vacancy.php:68
+msgid "and sent to moderators for review"
+msgstr ""
+
+#: inc/company/ajax/vacancy.php:93
+msgid "Vacancy removed"
+msgstr ""
+
+#: inc/company/blog/form.php:10
+msgid "No access to current page"
+msgstr ""
+
+#: inc/company/blog/form.php:42
+msgid "Publication"
+msgstr ""
+
+#: inc/company/blog/form.php:44
+msgid "Remove publication?"
+msgstr ""
+
+#: inc/company/blog/form.php:52
+msgid "New pulication"
+msgstr ""
+
+#: inc/company/blog/form.php:69
+msgid "More than 418 x 315"
+msgstr ""
+
+#: inc/company/blog/form.php:77
+msgid "Change thumbnail"
+msgstr ""
+
+#: inc/company/blog/form.php:77
+msgid "Chose thumbnail"
+msgstr ""
+
+#: inc/company/blog/form.php:85
+msgid "Post title"
+msgstr ""
+
+#: inc/company/blog/form.php:89
+msgid "Category"
+msgstr ""
+
+#: inc/company/blog/form.php:90 inc/company/links/form.php:72
+#: inc/company/main/form.php:93
+msgid "No results match"
+msgstr ""
+
+#: inc/company/blog/form.php:100
+msgid "Tags"
+msgstr ""
+
+#: inc/company/blog/form.php:128 inc/company/vacancies/form.php:151
+msgid "To draft"
+msgstr ""
+
+#: inc/company/blog/form.php:132 inc/company/vacancies/form.php:155
+msgid "Publish"
+msgstr ""
+
+#: inc/company/blog/form.php:139 inc/company/blog/list.php:23
+#: inc/company/template_parts/content-company-post.php:69
+msgid "On main"
+msgstr ""
+
+#: inc/company/blog/form.php:139
+msgid "To main"
+msgstr ""
+
+#: inc/company/blog/list.php:20
+msgid "All"
+msgstr ""
+
+#: inc/company/blog/list.php:21
+msgid "Drafts"
+msgstr ""
+
+#: inc/company/blog/list.php:22
+msgid "Publisheds"
+msgstr ""
+
+#: inc/company/blog/list.php:47
+msgid "Publications"
+msgstr ""
+
+#: inc/company/blog/list.php:77 inc/company/blog/list.php:100
+msgid "Not found posts for query"
+msgstr ""
+
+#: inc/company/blog/list.php:106
+msgid "Posts not found, create first post now"
+msgstr ""
+
+#: inc/company/links/form.php:45
+msgid "link"
+msgstr ""
+
+#: inc/company/links/form.php:47
+msgid "Remove link?"
+msgstr ""
+
+#: inc/company/links/form.php:53
+msgid "New link"
+msgstr ""
+
+#: inc/company/links/form.php:59 inc/company/main/form.php:103
+msgid "Description"
+msgstr ""
+
+#: inc/company/links/form.php:60
+msgid "Enter title of url"
+msgstr ""
+
+#: inc/company/links/form.php:65
+msgid "Url"
+msgstr ""
+
+#: inc/company/links/form.php:66
+msgid "Enter url"
+msgstr ""
+
+#: inc/company/links/form.php:71
+msgid "Order position"
+msgstr ""
+
+#: inc/company/links/form.php:72
+msgid "Select position"
+msgstr ""
+
+#: inc/company/links/list.php:73
+msgid "Not found links for query"
+msgstr ""
+
+#: inc/company/links/list.php:79
+msgid "Links not found, create first now"
+msgstr ""
+
+#: inc/company/main/form.php:21
+msgid "Company editing"
+msgstr ""
+
+#: inc/company/main/form.php:45
+msgid "1440 x 250"
+msgstr ""
+
+#: inc/company/main/form.php:53
+msgid "Set top image"
+msgstr ""
+
+#: inc/company/main/form.php:88
+msgid "Site"
+msgstr ""
+
+#: inc/company/main/form.php:93
+msgid "Select multiple tags"
+msgstr ""
+
+#: inc/company/main/view.php:69
+msgid "The company does not have a description, add it "
+msgstr ""
+
+#: inc/company/main/view.php:71
+msgid "now"
+msgstr ""
+
+#: inc/company/members/list.php:42
+msgid "Remove member?"
+msgstr ""
+
+#: inc/company/members/list.php:50
+msgid "Its you"
+msgstr ""
+
+#: inc/company/members/modal.php:7
+msgid "Add user to company member"
+msgstr ""
+
+#: inc/company/members/modal.php:12
+msgid "New user"
+msgstr ""
+
+#: inc/company/members/modal.php:13
+msgid "Existed user"
+msgstr ""
+
+#: inc/company/members/modal.php:20 inc/company/members/modal.php:33
+msgid "Enter email"
+msgstr ""
+
+#: inc/company/members/modal.php:21 inc/company/members/modal.php:34
+msgid "EMAIL"
+msgstr ""
+
+#: inc/company/members/modal.php:23
+msgid "On the email will come instructions for the entrance"
+msgstr ""
+
+#: inc/company/members/modal.php:36
+msgid "Specify the user's email address, and we'll add it to the company"
+msgstr ""
+
+#: inc/company/members/modal.php:47
+msgid "Next"
+msgstr ""
+
+#: inc/company/template_parts/content-company-post.php:65
+#: inc/company/vacancies/list.php:51
+msgid "Draft"
+msgstr ""
+
+#: inc/company/template_parts/content-company-post.php:67
+msgid "Post on moderation"
+msgstr ""
+
+#: inc/company/template_parts/content-company-post.php:111
+msgid "View"
+msgstr ""
+
+#: inc/company/vacancies/form.php:23
+msgid "Vacancy"
+msgstr ""
+
+#: inc/company/vacancies/form.php:25
+msgid "Remove vacancy?"
+msgstr ""
+
+#: inc/company/vacancies/form.php:31
+msgid "New vacancy"
+msgstr ""
+
+#: inc/company/vacancies/form.php:37
+msgid "Position"
+msgstr ""
+
+#: inc/company/vacancies/form.php:39
+msgid "Enter the position"
+msgstr ""
+
+#: inc/company/vacancies/form.php:73 inc/company/vacancies/list.php:86
+msgid "City"
+msgstr ""
+
+#: inc/company/vacancies/form.php:74
+msgid "City name"
+msgstr ""
+
+#: inc/company/vacancies/form.php:81 inc/company/vacancies/list.php:91
+msgid "Remote work is possible"
+msgstr ""
+
+#: inc/company/vacancies/form.php:87
+msgid "Required competences"
+msgstr ""
+
+#: inc/company/vacancies/form.php:92
+msgid "Add competencies"
+msgstr ""
+
+#: inc/company/vacancies/form.php:97
+msgid "Requirements"
+msgstr ""
+
+#: inc/company/vacancies/form.php:98
+msgid "Describe the requirements for the candidate"
+msgstr ""
+
+#: inc/company/vacancies/form.php:103
+msgid "Official duties"
+msgstr ""
+
+#: inc/company/vacancies/form.php:104
+msgid "Describe duties"
+msgstr ""
+
+#: inc/company/vacancies/form.php:109
+msgid "Working conditions"
+msgstr ""
+
+#: inc/company/vacancies/form.php:110
+msgid "Describe the conditions"
+msgstr ""
+
+#: inc/company/vacancies/form.php:117
+msgid "Contacts for communication"
+msgstr ""
+
+#: inc/company/vacancies/form.php:124
+msgid "Email address"
+msgstr ""
+
+#: inc/company/vacancies/form.php:129
+msgid "Skype"
+msgstr ""
+
+#: inc/company/vacancies/form.php:130
+msgid "Login"
+msgstr ""
+
+#: inc/company/vacancies/form.php:135
+msgid "Phone"
+msgstr ""
+
+#: inc/company/vacancies/list.php:51
+msgid "On moderation"
+msgstr ""
+
+#: inc/company/vacancies/list.php:114
+msgid "Not found vacancies for query"
+msgstr ""
+
+#: inc/company/vacancies/list.php:120
+msgid "Vacancies not found, create first now"
+msgstr ""

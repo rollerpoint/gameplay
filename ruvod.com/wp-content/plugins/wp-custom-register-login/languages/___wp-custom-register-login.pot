@@ -1,0 +1,478 @@
+# Copyright (C) 2017 WP Custom Register Login
+# This file is distributed under the same license as the WP Custom Register Login package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Custom Register Login 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-custom-register-login\n"
+"POT-Creation-Date: 2017-10-18 07:19:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/partials/settings/wpcrl-display-settings.php:3
+msgid "Confirmation email not sent"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:7
+msgid "This message will be shown if confirmation email is not sent to the user (Default: Could not able to send the email notification.)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:14
+msgid "Account activated"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:18
+msgid "This message will be shown only once when user activates the account from email. (Default: Your account has been activated. You can login now.)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:25
+msgid "Account Not activated"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:29
+msgid "This message will be shown only when user tries to login without activating the account. (Default: Your account has not been activated yet, please verify your email first.)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:36
+msgid "Login Success"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:40
+msgid "This message will be shown on login success. (Default: You are successfully logged in.)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:49
+msgid "Login Error"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:53
+msgid "This message will be shown on login error. (Default: Username or password is incorrect.)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:65
+msgid "Password Reset link sent"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:69
+msgid "This message will be shown on reset password form when reset link is sent to the user. (Default: Password reset link not sent.)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:77
+msgid "Password Reset link not sent"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:81
+msgid "This message will be shown on reset password form when reset link is not sent to the user. (Default: A link to reset your password has been sent to you.)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:89
+msgid "Invalid Email on reset password form"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:93
+msgid "This message will be shown on reset password form when invalid email is entered. (Default: We cannot identify any user with this email.)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:101
+msgid "Password changes success message"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:105
+msgid "This message will be shown when password has been changed successfully. (Default: Your password has been changed successfully.)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:113
+msgid "Invalid password reset token"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-display-settings.php:117
+msgid "This message will be shown when the token in invalid. (Default: This token appears to be invalid.)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:3
+#: admin/partials/wpcrl-admin-display.php:129
+msgid "Want admin to receive new user notification email?"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:7
+msgid "Use this feature, if you want to make sure admin receives email on new user registration."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:14
+#: admin/partials/wpcrl-admin-display.php:108
+msgid "Enable New User Email Confirmation"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:18
+#: admin/partials/wpcrl-admin-display.php:114
+msgid "Use this feature, if you want to make sure new user must confirm his/her email address at the time of registration."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:30
+#: admin/partials/settings/wpcrl-email-settings.php:63
+#: admin/partials/settings/wpcrl-email-settings.php:93
+#: admin/partials/wpcrl-admin-display.php:138
+msgid "Subject"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:36
+#: admin/partials/settings/wpcrl-email-settings.php:51
+#: admin/partials/settings/wpcrl-email-settings.php:69
+#: admin/partials/settings/wpcrl-email-settings.php:81
+#: admin/partials/settings/wpcrl-email-settings.php:94
+#: admin/partials/settings/wpcrl-email-settings.php:111
+#: admin/partials/wpcrl-admin-display.php:149
+#: admin/partials/wpcrl-admin-display.php:181
+msgid "<code>%BLOGNAME%</code> will be replaced with the name of your blog."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:42
+#: admin/partials/settings/wpcrl-email-settings.php:75
+#: admin/partials/settings/wpcrl-email-settings.php:104
+#: admin/partials/wpcrl-admin-display.php:155
+msgid "Message"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:47
+msgid "<code>%FIRSTNAME%</code> will be replaced with a user's first name."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:48
+msgid "<code>%LASTNAME%</code> will be replaced with a user's lastname."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:49
+#: admin/partials/wpcrl-admin-display.php:148
+#: admin/partials/wpcrl-admin-display.php:180
+msgid "<code>%USERNAME%</code> will be replaced with a username."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:50
+msgid "<code>%USEREMAIL%</code> will be replaced with a user's email."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:52
+#: admin/partials/settings/wpcrl-email-settings.php:82
+#: admin/partials/wpcrl-admin-display.php:150
+#: admin/partials/wpcrl-admin-display.php:182
+msgid "<code>%BLOGURL%</code> will be replaced with the url of your blog."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:80
+msgid "<code>%ACTIVATIONLINK%</code> will be replaced with the new account activation link."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:109
+msgid "<code>%USERNAME%</code> will be replaced with the username."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-email-settings.php:110
+msgid "<code>%RECOVERYLINK%</code> will be replaced with the password recovery link."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:9
+msgid "Register form heading"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:13
+msgid "Enter here the heading of the Register from (Default: Register)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:21
+msgid "Register button text"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:25
+msgid "Enter here the text of the Register button (Default: Register)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:34
+msgid "Enable captcha on registration form"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:40
+msgid "Enable captcha at the time of registration."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:55
+msgid "Login form heading"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:59
+msgid "Enter here the heading of the Login from (Default: Login)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:68
+msgid "Login button text"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:72
+msgid "Enter here the text of the Login button (Default: Login)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:86
+msgid "Reset Password form heading"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:90
+msgid "Enter here the heading of the Reset Password (Default: Reset Password)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:99
+msgid "Forgot Password button text on login form"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:103
+msgid "Enter here the text of the Forgot Password button (Default: Forgot Password)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:111
+msgid "Reset Password button text on Reset Password form"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:115
+msgid "Enter here the text of the Reset Password button (Default: Reset Password)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:123
+msgid "Return to Login button text on Reset Password form"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:127
+msgid "Enter here the text of the Return to login button (Default: Return to Login)"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:136
+msgid "Enable forgot password link on login form"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-form-settings.php:142
+msgid "Enable forgot password link on login form."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-redirect-settings.php:3
+#: admin/partials/wpcrl-admin-display.php:15
+msgid "Global Login Redirect"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-redirect-settings.php:14
+#: admin/partials/wpcrl-admin-display.php:25
+msgid "Redirect the user to a specific page after login (Default: Same page keeps the user on the same page after login)."
+msgstr ""
+
+#: admin/partials/settings/wpcrl-redirect-settings.php:21
+#: admin/partials/wpcrl-admin-display.php:32
+msgid "Global Logout Redirect"
+msgstr ""
+
+#: admin/partials/settings/wpcrl-redirect-settings.php:30
+#: admin/partials/wpcrl-admin-display.php:41
+msgid "Redirect the user to a specific page after logout (Default: Same page keeps the user on the same page on logout)."
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:2
+msgid "WP Custom Registration Login"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:8
+msgid "General Settings"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:11
+msgid "Redirection Settings"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:50
+msgid "Display Settings"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:55
+msgid "Sign Up form heading"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:59
+msgid "Enter here the heading of the Sign Up from (Default: Register)"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:67
+msgid "Sign In form heading"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:71
+msgid "Enter here the heading of the Sign In from (Default: Login)"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:79
+msgid "Sign Up button text"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:83
+msgid "Enter here the text of the Sign Up button (Default: Register)"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:91
+msgid "Sign In button text"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:95
+msgid "Enter here the text of the Sign In button (Default: Login)"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:104
+msgid "Form Settings"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:123
+msgid "Email Notification Settings"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:143
+msgid "Welcome to %BLOGNAME%"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:161
+msgid ""
+"Thank you for registering on %BLOGNAME%.\n"
+"<br><br>\n"
+"<strong>First Name :</strong> %FIRSTNAME%<br>\n"
+"<strong>Last Name : </strong>%LASTNAME%<br>\n"
+"<strong>Username :</strong> %USERNAME%<br>\n"
+"<strong>Email :</strong> %USEREMAIL%<br>\n"
+"<strong>Password :</strong> As choosen at the time of registration.\n"
+"<br><br>\n"
+"Please visit %BLOGURL% to login.\n"
+"<br><br>\n"
+"Thanks and regards,\n"
+"<br>\n"
+"The team at %BLOGNAME%"
+msgstr ""
+
+#: admin/partials/wpcrl-admin-display.php:191
+msgid "Save Changes"
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:103
+#: public/class-wp-custom-register-login-public.php:266
+#: public/class-wp-custom-register-login-public.php:413
+msgid "Failed security check !"
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:152
+msgid "The username you have entered does not exist."
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:218
+msgid "First name : "
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:219
+msgid "Last name : "
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:220
+msgid "Username : "
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:221
+msgid "Email : "
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:222
+msgid "Password :"
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:222
+msgid " As choosen at time of registration"
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:224
+msgid "A new user has registered on %s with following details:"
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:233
+msgid "Thanks."
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:306
+msgid "Thanks for signing up. Please check your email for confirmation!"
+msgstr ""
+
+#: public/class-wp-custom-register-login-public.php:309
+msgid "You are successfully registered."
+msgstr ""
+
+#: public/partials/wpcrl-login-form.php:36
+#: public/partials/wpcrl-register-form.php:33
+#: public/partials/wpcrl-resetpassword-form.php:31
+msgid "Please wait ..."
+msgstr ""
+
+#: public/partials/wpcrl-login-form.php:40
+#: public/partials/wpcrl-register-form.php:38
+msgid "Your account has been activated, you can login now."
+msgstr ""
+
+#: public/partials/wpcrl-login-form.php:43
+#: public/partials/wpcrl-register-form.php:50
+msgid "Username"
+msgstr ""
+
+#: public/partials/wpcrl-login-form.php:47
+#: public/partials/wpcrl-register-form.php:60
+msgid "Password"
+msgstr ""
+
+#: public/partials/wpcrl-register-form.php:41
+msgid "First name"
+msgstr ""
+
+#: public/partials/wpcrl-register-form.php:46
+msgid "Last name"
+msgstr ""
+
+#: public/partials/wpcrl-register-form.php:55
+#: public/partials/wpcrl-resetpassword-form.php:42
+msgid "Email"
+msgstr ""
+
+#: public/partials/wpcrl-register-form.php:65
+msgid "Confirm Password"
+msgstr ""
+
+#: public/partials/wpcrl-resetpassword-form.php:51
+msgid "New password"
+msgstr ""
+
+#: wp-custom-register-login.php:69
+msgid "Log Out"
+msgstr ""
+
+#: wp-custom-register-login.php:71
+msgid "Log In"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "WP Custom Register Login"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.daffodilsw.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin will help you to add ajax enabled custom login/register form on your website in just few minutes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jenis Patel"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.daffodilsw.com/"
+msgstr ""
+
+#. Register url text
+msgid "Register"
+msgstr ""
